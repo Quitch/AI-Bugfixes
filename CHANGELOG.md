@@ -11,3 +11,4 @@
   - Builds the Horsefly Advanced Strafer
   - Builds the Piranha Gunboat
   - Prevent production of units it cannot fit in platoons
+  - Remove unnecessary economy checks from Titan builds
