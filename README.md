@@ -13,12 +13,12 @@ Please note that there are many ways to resolve the issues handled by this mod; 
   - Recognises that the Basic Vehicle Factory can be effective even without a land route.
   - Builds the Phoenix Advanced Fighter.
   - Builds the Horsefly Advanced Strafer.
-  - Prevent production of units it cannot fit in platoons.
-  - Remove unnecessary economy checks from Titan builds.
+  - Doesn't produce units it cannot fit in platoons.
+  - Removes unnecessary economy checks from Titan builds.
   - Builds the Atlas Titan.
   - Builds the Ares Titan.
-  - Won't limit its Drifter Hover Tank builds when there is no land route.
-  - Don't create naval fleets consisting of only Barracuda Naval Barges.
+  - Doesn't limit its Drifter Hover Tank builds when there is no land route.
+  - Doesn't create naval fleets consisting of only Barracuda Naval Barges.
 
 ### What It Doesn't Do
 
