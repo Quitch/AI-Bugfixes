@@ -6,7 +6,7 @@ Please note that there are many ways to resolve the issues handled by this mod; 
 
 # Installation
 
-You should download and install this mod via the Planetary Annihilation TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
+You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
 ### What It Does
 
