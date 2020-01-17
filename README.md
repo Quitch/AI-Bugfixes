@@ -14,6 +14,7 @@ Please note that there are many ways to resovle the issues handled by this mod, 
   - Builds the Phoenix Advanced Fighter
   - Builds the Horsefly Advanced Strafer
   - Builds the Piranha Gunboat
+  - Prevent production of units it cannot fit in platoons
 
 ### What It Doesn't Do
 

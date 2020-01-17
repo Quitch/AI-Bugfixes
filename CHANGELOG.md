@@ -10,3 +10,4 @@
   - Builds the Phoenix Advanced Fighter
   - Builds the Horsefly Advanced Strafer
   - Builds the Piranha Gunboat
+  - Prevent production of units it cannot fit in platoons
