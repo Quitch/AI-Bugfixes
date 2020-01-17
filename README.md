@@ -1,22 +1,17 @@
-# AI Bugfixes
+# AI Bugfixes and Enhancements
 
-This is the vanilla Planetary Annihilation: Titans AI, updated to work alongside all community AI and faction mods. It also enables your AI to build previously unsupported units. Refer to it as a dependency in your AI mod to avoid having to roll your own solution.
+The base game AI implementation for Planetary Annihilation: TITANS features a number of flaws, primarily due to the AI failing to keep up with an evolving unit roster over the course of the game's lifespan. This mod aims to fix those issues.
+
+Please note that there are many ways to resovle the issues handled by this mod, so while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them.
 
 ### What It Does
 
-- Adds a check for the personality tag "vanilla" to every AI build condition
-- Adds the "vanilla" personality tag to all vanilla difficulty levels
-- Adds new unit names to the AI unit map to allow modded AIs to build every unit
-- Adds new group names to the AI unit map to allow it to work with faction mods
+- Fix issues which impact skirmish and multiplayer and can be resolved through JSON
 
 ### What It Doesn't Do
 
-- Modify the behaviour of the vanilla AI in any way
+- Fix issues which impact Galactic War as this mode cannot load server mods
 
 ## Translations
 
-Please help [translate AI Mod Compatibility Framework](https://poeditor.com/join/project/SRaVaVcO60) to your local language.
-
-## Thanks To
-
-- wondible for his creation of the [AI Showdown](https://github.com/JustinLove/ai_showdown/) tool
+Please help [translate AI Bugfixes](https://poeditor.com/join/project/wHanBb08ma) to your local language.
