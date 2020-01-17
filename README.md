@@ -7,7 +7,7 @@ Please note that there are many ways to resovle the issues handled by this mod, 
 ### What It Does
 
 - Fix issues which impact skirmish and multiplayer and can be resolved through JSON
-  - Hover units will not get stuck on islands with land armies
+  - Hover units will not get stuck on islands with land armies or in ponds with naval fleets
   - Bluehawks are handled correctly as a long-range unit
   - Recognises that the Advanced Naval Factory can be effective even without a naval route
 
