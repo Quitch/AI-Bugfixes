@@ -22,7 +22,9 @@ Please note that there are many ways to resolve the issues handled by this mod; 
 
 ### What It Doesn't Do
 
-- Fix issues which impact Galactic War, as this mode cannot load server mods.
+- Fix these issues in Galactic War, as this mode cannot load server mods.
+- Build the Piranha Gunboat as this is an enhancement outside the mod's scope.
+- Build the Stryker Attack Vehicle as this is an enhancement outside the mod's scope.
 
 ## Translations
 
