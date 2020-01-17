@@ -8,7 +8,7 @@ Please note that there are many ways to resolve the issues handled by this mod; 
 
 - Fix issues which impact skirmish and multiplayer and can be resolved through JSON:
   - Hover units will not get stuck on islands with land armies or in ponds with naval fleets.
-  - Bluehawks are handled correctly as a long-range unit.
+  - Bluehawk Mobile Tactical Missiles are handled correctly as a long-range unit.
   - Recognises that the Advanced Naval Factory can be effective even without a naval route.
   - Recognises that the Basic Vehicle Factory can be effective even without a land route.
   - Builds the Phoenix Advanced Fighter.
