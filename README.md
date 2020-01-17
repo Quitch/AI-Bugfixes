@@ -22,7 +22,6 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds the Ares Titan.
 - Uncaps its Drifter Hover Tank builds when there is no land route.
 - Prevents the creation of naval fleets consisting of only Barracuda Naval Barges.
-- Prevents unnecessary micro of the Atlas Titan.
 
 ### What It Doesn't Do
 
