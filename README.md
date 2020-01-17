@@ -8,6 +8,7 @@ Please note that there are many ways to resovle the issues handled by this mod, 
 
 - Fix issues which impact skirmish and multiplayer and can be resolved through JSON
   - Hover units will not get stuck on islands with land armies
+  - Bluehawks are handled correctly as a long-range unit
 
 ### What It Doesn't Do
 
