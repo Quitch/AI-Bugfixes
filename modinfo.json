@@ -9,7 +9,7 @@
   "date": "2020/01/17",
   "signature": " ",
   "forum": "",
-  "category": ["ai", "titans"],
+  "category": ["ai", "titans", "fix"],
   "icon": "https://i.imgur.com/dN9eCaW.png",
   "dependencies": ["com.pa.quitch.qAIModCompatibilityPatch"],
   "priority": 50,
