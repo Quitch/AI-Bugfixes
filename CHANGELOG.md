@@ -8,7 +8,7 @@
 - Recognises that the Basic Vehicle Factory can be effective even without a land route.
 - Builds the Phoenix Advanced Fighter.
 - Builds the Horsefly Advanced Strafer.
-- Prevents production of units it cannot fit in platoons.
+- Prevents the inclusion of factories in mobile unit ratio checks.
 - Removes unnecessary economy checks from Titan builds.
 - Builds the Atlas Titan.
 - Builds the Ares Titan.
