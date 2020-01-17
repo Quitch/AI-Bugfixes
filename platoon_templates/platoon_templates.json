@@ -1,0 +1,84 @@
+{
+  "platoon_templates": {
+    "Hover_Raid_Small": {
+      "units": [
+        {
+          "unit_types": "(Bot & Hover & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
+          "min_count": 1,
+          "max_count": 3,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "((Hover - Bot) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "General"
+        }
+      ]
+    },
+    "Hover_Raid_Medium": {
+      "units": [
+        {
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan - Hover",
+          "min_count": 4,
+          "max_count": 9,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Hover & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "General"
+        }
+      ]
+    },
+    "Hover_Raid_Large": {
+      "units": [
+        {
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan - Hover",
+          "min_count": 10,
+          "max_count": 19,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Hover & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "General"
+        }
+      ]
+    },
+    "Hover_Raid_XLarge": {
+      "units": [
+        {
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan - Hover",
+          "min_count": 20,
+          "max_count": 39,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Hover & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "General"
+        }
+      ]
+    },
+    "Hover_Raid_Max": {
+      "units": [
+        {
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan - Hover",
+          "min_count": 40,
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Hover & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "General"
+        }
+      ]
+    }
+  }
+}
