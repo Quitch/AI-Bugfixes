@@ -20,7 +20,7 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Removes unnecessary economy checks from Titan builds.
 - Builds the Atlas Titan.
 - Builds the Ares Titan.
-- Uncaps its Drifter Hover Tank builds when there is no land route.
+- Uncaps the Drifter Hover Tank build ratio when there is no land route.
 - Prevents the creation of naval fleets consisting of only Barracuda Naval Barges.
 
 ### What It Doesn't Do
