@@ -12,6 +12,7 @@ Please note that there are many ways to resovle the issues handled by this mod, 
   - Recognises that the Advanced Naval Factory can be effective even without a naval route
   - Recognises that the Basic Vehicle Factory can be effective even without a land route
   - Builds the Phoenix Advanced Fighter
+  - Builds the Horsefly Advanced Strafer
 
 ### What It Doesn't Do
 
