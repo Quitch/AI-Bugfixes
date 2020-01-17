@@ -4,6 +4,10 @@ The base game AI implementation for Planetary Annihilation: TITANS features a nu
 
 Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them.
 
+# Installation
+
+You should download and install this mod via the Planetary Annihilation TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
+
 ### What It Does
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
