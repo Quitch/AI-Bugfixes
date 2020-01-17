@@ -10,6 +10,7 @@ Please note that there are many ways to resovle the issues handled by this mod, 
   - Hover units will not get stuck on islands with land armies or in ponds with naval fleets
   - Bluehawks are handled correctly as a long-range unit
   - Recognises that the Advanced Naval Factory can be effective even without a naval route
+  - Recognises that the Basic Vehicle Factory can be effective even without a land route
 
 ### What It Doesn't Do
 
