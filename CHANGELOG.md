@@ -1,6 +1,6 @@
 # CHANGELOG
 
-#### DEV
+#### v1.0 - 2020-01-17
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit.
