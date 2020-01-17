@@ -14,3 +14,4 @@
   - Builds the Atlas Titan
   - Builds the Ares Titan
   - Won't limit its Drifter Hover Tank builds when there is no land route
+  - Don't create naval fleets consisting of only Barracuda Naval Barges
