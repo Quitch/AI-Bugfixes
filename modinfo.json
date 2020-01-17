@@ -12,6 +12,6 @@
   "category": ["ai", "titans", "fix"],
   "icon": "https://i.imgur.com/dN9eCaW.png",
   "dependencies": ["com.pa.quitch.qAIModCompatibilityPatch"],
-  "priority": 50,
+  "priority": 150,
   "titansOnly": true
 }

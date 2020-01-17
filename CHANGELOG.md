@@ -14,3 +14,4 @@
   - Remove unnecessary economy checks from Titan builds
   - Builds the Atlas Titan
   - Builds the Ares Titan
+  - Won't limit its Drifter Hover Tank builds when there is no land route
