@@ -13,3 +13,4 @@
   - Prevent production of units it cannot fit in platoons
   - Remove unnecessary economy checks from Titan builds
   - Builds the Atlas Titan
+  - Builds the Ares Titan
