@@ -172,7 +172,7 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy) - Titan",
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
@@ -218,7 +218,7 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy) - Titan",
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
@@ -264,7 +264,7 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy) - Titan",
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
@@ -310,7 +310,7 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy) - Titan",
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
@@ -356,7 +356,7 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy) - Titan",
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
@@ -791,19 +791,19 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy)",
+          "unit_types": "(Hover & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & AirDefense",
+          "unit_types": "(Hover & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & Construction",
+          "unit_types": "(Hover & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
@@ -837,19 +837,19 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy)",
+          "unit_types": "(Hover & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & AirDefense",
+          "unit_types": "(Hover & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & Construction",
+          "unit_types": "(Hover & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
@@ -883,19 +883,19 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy)",
+          "unit_types": "(Hover & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & AirDefense",
+          "unit_types": "(Hover & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & Construction",
+          "unit_types": "(Hover & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
@@ -929,19 +929,19 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy)",
+          "unit_types": "(Hover & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & AirDefense",
+          "unit_types": "(Hover & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & Construction",
+          "unit_types": "(Hover & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
@@ -975,19 +975,19 @@
           "squad": "Artillery"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile & Heavy)",
+          "unit_types": "(Hover & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & AirDefense",
+          "unit_types": "(Hover & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
         },
         {
-          "unit_types": "(Hover & Mobile) & Mobile) & Construction",
+          "unit_types": "(Hover & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
