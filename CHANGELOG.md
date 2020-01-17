@@ -9,3 +9,4 @@
   - Recognises that the Basic Vehicle Factory can be effective even without a land route
   - Builds the Phoenix Advanced Fighter
   - Builds the Horsefly Advanced Strafer
+  - Builds the Piranha Gunboat
