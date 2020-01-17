@@ -12,5 +12,5 @@
 - Removes unnecessary economy checks from Titan builds.
 - Builds the Atlas Titan.
 - Builds the Ares Titan.
-- Uncaps its Drifter Hover Tank builds when there is no land route.
+- Uncaps the Drifter Hover Tank build ratio when there is no land route.
 - Prevents the creation of naval fleets consisting of only Barracuda Naval Barges.
