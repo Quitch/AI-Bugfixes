@@ -19,6 +19,7 @@ Please note that there are many ways to resolve the issues handled by this mod; 
   - Builds the Ares Titan.
   - Doesn't limit its Drifter Hover Tank builds when there is no land route.
   - Doesn't create naval fleets consisting of only Barracuda Naval Barges.
+  - Doesn't micro the Atlas Titan with its tanks.
 
 ### What It Doesn't Do
 
