@@ -145,7 +145,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fighter & Basic",
+            "unit_type_string0": "Air & Fighter",
             "compare0": "<",
             "value0": 50
           }
@@ -322,7 +322,7 @@
           },
           {
             "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fighter & Advanced",
+            "unit_type_string0": "Air & Fighter",
             "compare0": "<",
             "value0": 50
           }
