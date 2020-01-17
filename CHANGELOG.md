@@ -3,6 +3,6 @@
 #### DEV
 
 - Corrected a number of bugs that appear in the base game AI
-  - Allow hover units to act independent of land armies
-  - Bluehawk placed in the artillery squad
-  - Build Advanced Naval Factory for hover unit usage
+  - Hover units will not get stuck on islands with land armies
+  - Bluehawks are handled correctly as a long-range unit
+  - Recognises that the Advanced Naval Factory can be effective even without a naval route
