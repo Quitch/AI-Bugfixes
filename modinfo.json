@@ -1,0 +1,17 @@
+{
+  "context": "server",
+  "identifier": "com.pa.quitch.AIBugfixEnhancement-dev",
+  "display_name": "AI Bugfixes DEV",
+  "description": "Corrects a number of flaws in the base game AI implementation.",
+  "author": "Quitch",
+  "version": "dev",
+  "build": "113953",
+  "date": "2020/01/17",
+  "signature": " ",
+  "forum": "",
+  "category": ["ai", "titans"],
+  "icon": "https://i.imgur.com/dN9eCaW.png",
+  "dependencies": ["com.pa.quitch.qAIModCompatibilityPatch"],
+  "priority": 50,
+  "titansOnly": true
+}
