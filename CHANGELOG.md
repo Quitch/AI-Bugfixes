@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### v1.0.1 - 2020-01-18
+
+- Fix a spacing error.
+
 #### v1.0 - 2020-01-18
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
