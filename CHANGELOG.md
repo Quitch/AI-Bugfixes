@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### v1.0.2 - 2020-01-18
+
+- Improve compatibility with Legion Expansion
+
 #### v1.0.1 - 2020-01-18
 
 - Fix a spacing error.

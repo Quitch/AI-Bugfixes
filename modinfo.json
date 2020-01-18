@@ -4,7 +4,7 @@
   "display_name": "AI Bugfixes and Enhancements",
   "description": "Corrects a number of flaws in the base game AI implementation. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "build": "113953",
   "date": "2020/01/18",
   "signature": " ",
