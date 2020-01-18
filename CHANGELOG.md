@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### v1.1 - 2020-01-18
+
+- Prevents orbital scouts from getting stuck on gas giants
+
 #### v1.0.2 - 2020-01-18
 
 - Improve compatibility with Legion Expansion

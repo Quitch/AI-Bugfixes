@@ -22,6 +22,7 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds the Ares Titan.
 - Uncaps the Drifter Hover Tank build ratio when there is no land route.
 - Prevents the creation of naval fleets consisting of only Barnacle Naval Barges.
+- Prevents orbital scouts from getting stuck on gas giants
 
 ### What It Doesn't Do
 
