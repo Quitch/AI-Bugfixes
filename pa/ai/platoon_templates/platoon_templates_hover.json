@@ -9,7 +9,7 @@
           "squad": "General"
         },
         {
-          "unit_types": "(Hover & Mobile) & Artillery - Fabber - Deconstruction - Titan",
+          "unit_types": "(Hover & Mobile & Artillery) - Fabber - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 3,
           "squad": "Artillery"
@@ -25,7 +25,7 @@
           "squad": "General"
         },
         {
-          "unit_types": "(Hover & Mobile) & Artillery - Fabber - Deconstruction - Titan",
+          "unit_types": "(Hover & Mobile & Artillery) - Fabber - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 9,
           "squad": "Artillery"
@@ -41,7 +41,7 @@
           "squad": "General"
         },
         {
-          "unit_types": "(Hover & Mobile) & Artillery - Fabber - Deconstruction - Titan",
+          "unit_types": "(Hover & Mobile & Artillery) - Fabber - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 19,
           "squad": "Artillery"
@@ -57,7 +57,7 @@
           "squad": "General"
         },
         {
-          "unit_types": "(Hover & Mobile) & Artillery - Fabber - Deconstruction - Titan",
+          "unit_types": "(Hover & Mobile & Artillery) - Fabber - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 39,
           "squad": "Artillery"
@@ -73,7 +73,7 @@
           "squad": "General"
         },
         {
-          "unit_types": "(Hover & Mobile) & Artillery - Fabber - Deconstruction - Titan",
+          "unit_types": "(Hover & Mobile & Artillery) - Fabber - Deconstruction - Titan",
           "min_count": 0,
           "max_count": -1,
           "squad": "Artillery"
