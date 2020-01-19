@@ -34,6 +34,10 @@
             "string0": "BasicBotFactory"
           },
           {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicBotFactory"
           }
@@ -55,6 +59,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicBotFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -84,6 +92,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicBotFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -160,6 +172,10 @@
             "string0": "BasicVehicleFactory"
           },
           {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicVehicleFactory"
           }
@@ -181,6 +197,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicVehicleFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -210,6 +230,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicVehicleFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -306,6 +330,10 @@
             "string0": "BasicBotFactory"
           },
           {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicBotFactory"
           }
@@ -347,6 +375,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicBotFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -418,6 +450,10 @@
             "string0": "BasicVehicleFactory"
           },
           {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicVehicleFactory"
           }
@@ -459,6 +495,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "BasicVehicleFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -518,6 +558,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "AdvancedBotFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -732,6 +776,10 @@
           {
             "test_type": "CanAffordPotentialDrain",
             "string0": "AdvancedBotFactory"
+          },
+          {
+            "test_type": "CanDeployLandFromBase",
+            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### v1.2 - 2020-01-19
+
+- Reversal of island approach, now tries to avoid putting land factories on islands
+
 #### v1.1 - 2020-01-18
 
 - Prevents orbital scouts from getting stuck on gas giants
