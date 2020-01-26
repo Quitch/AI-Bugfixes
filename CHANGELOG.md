@@ -1,6 +1,6 @@
 # CHANGELOG
 
-#### DEV
+#### v1.2.1 - 2020-01-26
 
 - Ensure land combat fabber build checks match the ratio check in the platoon template
 
