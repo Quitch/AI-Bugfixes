@@ -1,5 +1,9 @@
 # CHANGELOG
 
+#### DEV
+
+- Ensure land combat fabber build checks account for any type of land combat fabbers to better support shared armies with other factions
+
 #### v1.2 - 2020-01-19
 
 - Reversal of island approach, now tries to avoid putting land factories on islands
