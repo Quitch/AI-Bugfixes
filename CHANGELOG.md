@@ -2,7 +2,7 @@
 
 #### DEV
 
-- Ensure land combat fabber build checks account for any type of land combat fabbers to better support shared armies with other factions
+- Ensure land combat fabber build checks match the ratio check in the platoon template
 
 #### v1.2 - 2020-01-19
 
