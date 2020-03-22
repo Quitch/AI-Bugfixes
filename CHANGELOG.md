@@ -1,26 +1,26 @@
 # CHANGELOG
 
-#### v1.2.1 - 2020-01-26
+## v1.2.1 - 2020-01-26
 
 - Ensure land combat fabber build checks match the ratio check in the platoon template
 
-#### v1.2 - 2020-01-19
+## v1.2 - 2020-01-19
 
 - Reversal of island approach, now tries to avoid putting land factories on islands
 
-#### v1.1 - 2020-01-18
+## v1.1 - 2020-01-18
 
 - Prevents orbital scouts from getting stuck on gas giants
 
-#### v1.0.2 - 2020-01-18
+## v1.0.2 - 2020-01-18
 
 - Improve compatibility with Legion Expansion
 
-#### v1.0.1 - 2020-01-18
+## v1.0.1 - 2020-01-18
 
 - Fix a spacing error
 
-#### v1.0 - 2020-01-18
+## v1.0 - 2020-01-18
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit
