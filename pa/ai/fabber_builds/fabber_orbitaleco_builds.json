@@ -11,6 +11,11 @@
       "build_conditions": [
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
             "test_type": "PlanetIsGasGiant",
             "boolean": false
           },
@@ -52,6 +57,11 @@
         [
           {
             "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
             "boolean": false
           },
@@ -81,6 +91,11 @@
           }
         ],
         [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
           {
             "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
@@ -135,6 +150,11 @@
         [
           {
             "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
             "boolean": false
           },
@@ -167,6 +187,11 @@
           }
         ],
         [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
           {
             "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
@@ -224,6 +249,11 @@
         [
           {
             "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
             "boolean": false
           },
@@ -268,6 +298,11 @@
       "build_conditions": [
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
             "test_type": "PlanetIsGasGiant",
             "boolean": false
           },
@@ -302,6 +337,11 @@
         [
           {
             "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
             "boolean": false
           },
@@ -327,6 +367,11 @@
           }
         ],
         [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
           {
             "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
@@ -374,6 +419,11 @@
       "builders": ["OrbitalFabber"],
       "build_conditions": [
         [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "Vanilla",
+            "boolean": true
+          },
           {
             "test_type": "HasPersonalityTag",
             "string0": "SlowerExpansion",
