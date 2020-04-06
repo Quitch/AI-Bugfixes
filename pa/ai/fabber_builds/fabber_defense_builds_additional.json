@@ -188,7 +188,7 @@
       "instance_count": 1,
       "priority": 262,
       "base_sort": "FromPerimeter",
-      "builders": ["AnyUberBasicFabber"],
+      "builders": ["UberCommander", "AnyUberBasicFabber"],
       "build_conditions": [
         [
           {
