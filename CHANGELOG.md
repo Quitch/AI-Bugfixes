@@ -3,6 +3,7 @@
 ## DEV
 
 - Enable building of Basic Metal Extractors by Orbital Fabricators
+- Enable building of Basic and Advanced Torpedo Launcher
 
 ## v1.2.1 - 2020-01-26
 
