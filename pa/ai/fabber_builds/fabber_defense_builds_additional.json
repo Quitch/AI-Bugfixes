@@ -16,6 +16,10 @@
             "boolean": true
           },
           {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -41,10 +45,6 @@
             "value0": 2
           },
           {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicNavalDefense"
           }
@@ -53,6 +53,10 @@
           {
             "test_type": "HasPersonalityTag",
             "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
             "boolean": true
           },
           {
@@ -79,10 +83,6 @@
             "unit_type_string0": "Structure & MetalProduction",
             "compare0": ">=",
             "value0": 2
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -132,6 +132,10 @@
             "boolean": true
           },
           {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -150,10 +154,6 @@
             "unit_type_string0": "Structure & (EnergyProduction | Factory)",
             "compare0": ">=",
             "value0": 3
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -197,6 +197,10 @@
             "boolean": true
           },
           {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -224,10 +228,6 @@
             "value0": 3
           },
           {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "BasicNavalDefense"
           }
@@ -236,6 +236,10 @@
           {
             "test_type": "HasPersonalityTag",
             "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
             "boolean": true
           },
           {
@@ -264,10 +268,6 @@
             "unit_type_string0": "Structure & (EnergyProduction | Factory)",
             "compare0": ">=",
             "value0": 3
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
           },
           {
             "test_type": "CanFindPlaceToBuild",
@@ -311,6 +311,10 @@
             "boolean": true
           },
           {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -328,10 +332,6 @@
           {
             "test_type": "HaveSeenEnemyUnits",
             "unit_type_string0": "Mobile & Naval & Advanced",
-            "boolean": true
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
             "boolean": true
           },
           {
@@ -376,6 +376,10 @@
             "boolean": true
           },
           {
+            "test_type": "CanDeployNavalFromBase",
+            "boolean": true
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -403,10 +407,6 @@
             "boolean": true
           },
           {
-            "test_type": "CanDeployNavalFromBase",
-            "boolean": true
-          },
-          {
             "test_type": "CanFindPlaceToBuild",
             "string0": "AdvancedNavalDefense"
           }
@@ -415,6 +415,10 @@
           {
             "test_type": "HasPersonalityTag",
             "string0": "Vanilla",
+            "boolean": true
+          },
+          {
+            "test_type": "CanDeployNavalFromBase",
             "boolean": true
           },
           {
@@ -442,10 +446,6 @@
           {
             "test_type": "HaveSeenEnemyUnits",
             "unit_type_string0": "Mobile & Sub & Advanced",
-            "boolean": true
-          },
-          {
-            "test_type": "CanDeployNavalFromBase",
             "boolean": true
           },
           {
