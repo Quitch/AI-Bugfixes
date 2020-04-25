@@ -31,6 +31,7 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
 - Build the Piranha Gunboat.
 - Build the Stryker Attack Vehicle.
+- Build the Icarus Solar Drone.
 
 ## Translations
 
