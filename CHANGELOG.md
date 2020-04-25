@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## DEV
+## v1.3.0 - 2020-04-25
 
 - Enable building of Basic Metal Extractors by Orbital Fabricators
 - Enable building of Basic and Advanced Torpedo Launcher
