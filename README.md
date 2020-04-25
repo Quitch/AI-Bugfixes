@@ -23,7 +23,8 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Prevents the creation of naval fleets consisting of only Barnacle Naval Barges.
 - Prevents orbital scouts from getting stuck on gas giants.
 - Tries to avoid placing land factories in areas without land routes.
-- Builds torpedo launchers.
+- Builds Metal Extractors using Orbital Fabricators.
+- Builds Torpedo Launchers.
 
 ### What It Doesn't Do
 
