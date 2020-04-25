@@ -4,7 +4,7 @@ The base game AI implementation for Planetary Annihilation: TITANS features a nu
 
 Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them.
 
-# Installation
+## Installation
 
 You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
@@ -23,12 +23,14 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Prevents the creation of naval fleets consisting of only Barnacle Naval Barges.
 - Prevents orbital scouts from getting stuck on gas giants.
 - Tries to avoid placing land factories in areas without land routes.
+- Builds Metal Extractors using Orbital Fabricators.
+- Builds Torpedo Launchers.
 
 ### What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
-- Build the Piranha Gunboat, as this is an enhancement outside the mod's scope.
-- Build the Stryker Attack Vehicle, as this is an enhancement outside the mod's scope.
+- Build the Piranha Gunboat.
+- Build the Stryker Attack Vehicle.
 
 ## Translations
 
