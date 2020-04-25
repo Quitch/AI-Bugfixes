@@ -1,10 +1,10 @@
 {
   "context": "server",
-  "identifier": "com.pa.quitch.AIBugfixEnhancement-dev",
-  "display_name": "AI Bugfixes and Enhancements DEV",
+  "identifier": "com.pa.quitch.AIBugfixEnhancement",
+  "display_name": "AI Bugfixes and Enhancements",
   "description": "Corrects a number of flaws in the base game AI implementation. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "dev",
+  "version": "1.3.0",
   "build": "114218",
   "date": "2020/04/25",
   "signature": " ",
