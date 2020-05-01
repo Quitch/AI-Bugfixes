@@ -8,7 +8,7 @@ Please note that there are many ways to resolve the issues handled by this mod; 
 
 You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
-### What It Does
+## What It Does
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit.
@@ -26,7 +26,7 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds Metal Extractors using Orbital Fabricators.
 - Builds Torpedo Launchers.
 
-### What It Doesn't Do
+## What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
 - Build the Piranha Gunboat.
