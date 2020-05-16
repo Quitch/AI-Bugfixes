@@ -4,6 +4,8 @@
 
 - Builds the Stryker Attack Vehicle
 - Builds the Piranha Gunboat
+- Ensure Spark Tesla Bots are always built by the Unit Cannon
+- Ensure Locust Nano Swams are always built by the Unit Cannon
 
 ## v1.3.0 - 2020-04-25
 
