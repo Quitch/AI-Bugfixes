@@ -26,11 +26,11 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds Metal Extractors using Orbital Fabricators.
 - Builds Torpedo Launchers.
 - Builds the Stryker Attack Vehicle.
+- Builds the Piranha Gunboat.
 
 ## What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
-- Build the Piranha Gunboat.
 - Build the Icarus Solar Drone.
 
 ## Translations
