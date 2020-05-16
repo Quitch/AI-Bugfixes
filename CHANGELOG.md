@@ -2,8 +2,8 @@
 
 ## DEV
 
-- Builds the Stryker Attack Vehicle.
-- Builds the Piranha Gunboat.
+- Builds the Stryker Attack Vehicle
+- Builds the Piranha Gunboat
 
 ## v1.3.0 - 2020-04-25
 
