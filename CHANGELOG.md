@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## DEV
+
+- Builds the Stryker Attack Vehicle.
+
 ## v1.3.0 - 2020-04-25
 
 - Enable building of Basic Metal Extractors by Orbital Fabricators
