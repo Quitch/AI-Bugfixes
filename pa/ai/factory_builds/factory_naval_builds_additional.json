@@ -4,6 +4,7 @@
       "name": "Gunboat - Intel",
       "to_build": "Gunboat",
       "instance_count": 1,
+      "shared_instance_count": "NavalScout",
       "priority": 98,
       "builders": ["BasicVehicleFactory"],
       "build_conditions": [
@@ -75,6 +76,7 @@
       "name": "Gunboat",
       "to_build": "Gunboat",
       "instance_count": -1,
+      "shared_instance_count": "NavalScout",
       "max_num_assisters": 10,
       "priority": 97,
       "builders": ["BasicNavalFactory"],
