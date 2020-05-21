@@ -6,6 +6,7 @@
 - Builds the Piranha Gunboat
 - Ensure Spark Tesla Bots are always built by the Unit Cannon
 - Ensure Locust Nano Swams are always built by the Unit Cannon
+- Further adjusted how unit ratios are measured to avoid units sitting in the base without a platoon
 
 ## v1.3.0 - 2020-04-25
 
