@@ -79,6 +79,14 @@
           "squad": "Artillery"
         }
       ]
+    },
+    "Naval_Scout": {
+      "units": [
+        {
+          "unit_types": "Naval & Scout",
+          "max_count": 1
+        }
+      ]
     }
   }
 }
