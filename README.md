@@ -27,8 +27,8 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds Torpedo Launchers.
 - Builds the Stryker Attack Vehicle.
 - Builds the Piranha Gunboat.
-- Fixes Spark Tesla Bots not being built by the Unit Cannon in certain circumstances.
-- Fixes Locust Nano Swarms not being built by the Unit Cannon in certain circumstances.
+- Ensures Spark Tesla Bots are always built by the Unit Cannon.
+- Ensures Locust Nano Swams are always built by the Unit Cannon.
 
 ## What It Doesn't Do
 
