@@ -2,7 +2,7 @@
   "context": "server",
   "identifier": "com.pa.quitch.AIBugfixEnhancement-dev",
   "display_name": "AI Bugfixes and Enhancements DEV",
-  "description": "Corrects a number of flaws in the base game AI implementation. Does not affect Galactic War.",
+  "description": "Fixes a number of bugs in the TITANS AI. Does not affect Galactic War.",
   "author": "Quitch",
   "version": "dev",
   "build": "114233-pte",
