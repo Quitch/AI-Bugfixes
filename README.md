@@ -8,7 +8,7 @@ Please note that there are many ways to resolve the issues handled by this mod; 
 
 You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
-### What It Does
+## What It Does
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit.
@@ -25,12 +25,14 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Tries to avoid placing land factories in areas without land routes.
 - Builds Metal Extractors using Orbital Fabricators.
 - Builds Torpedo Launchers.
+- Builds the Stryker Attack Vehicle.
+- Builds the Piranha Gunboat.
+- Ensures Spark Tesla Bots are always built by the Unit Cannon.
+- Ensures Locust Nano Swams are always built by the Unit Cannon.
 
-### What It Doesn't Do
+## What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
-- Build the Piranha Gunboat.
-- Build the Stryker Attack Vehicle.
 
 ## Translations
 
