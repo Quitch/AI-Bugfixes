@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## DEV
+## v1.4.0 - 2020-05-29
 
 - Builds the Stryker Attack Vehicle
 - Builds the Piranha Gunboat
