@@ -9,11 +9,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Air & Factory",
             "compare0": "<",
