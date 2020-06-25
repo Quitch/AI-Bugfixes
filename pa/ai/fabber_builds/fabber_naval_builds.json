@@ -18,11 +18,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "HaveEcoForAdvanced",
             "boolean": false
           },
@@ -45,11 +40,6 @@
         ],
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
           },
@@ -71,11 +61,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
@@ -104,11 +89,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "UnableToExpand",
             "boolean": true
@@ -157,11 +137,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "HaveEcoForAdvanced",
             "boolean": false
           },
@@ -203,11 +178,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
@@ -267,11 +237,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true
           },
@@ -289,11 +254,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "UnableToExpand",
             "boolean": true
@@ -335,11 +295,6 @@
       "builders": ["BasicNavalFabber", "AdvancedNavalFabber"],
       "build_conditions": [
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "HaveEcoForAdvanced",
             "boolean": true

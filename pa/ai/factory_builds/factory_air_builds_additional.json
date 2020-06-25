@@ -10,11 +10,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "AloneOnPlanet",
             "boolean": false
           },
@@ -29,11 +24,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "AloneOnPlanet",
             "boolean": true
@@ -50,11 +40,6 @@
         ],
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "AloneOnPlanet",
             "boolean": false
           },
@@ -70,11 +55,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "BaseThreatRatio",
             "string0": "Air",
@@ -95,11 +75,6 @@
       "build_conditions": [
         [
           {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
-          {
             "test_type": "AloneOnPlanet",
             "boolean": false
           },
@@ -108,11 +83,6 @@
           }
         ],
         [
-          {
-            "test_type": "HasPersonalityTag",
-            "string0": "Vanilla",
-            "boolean": true
-          },
           {
             "test_type": "AloneOnPlanet",
             "boolean": true

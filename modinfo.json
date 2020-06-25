@@ -4,9 +4,9 @@
   "display_name": "AI Bugfixes and Enhancements",
   "description": "Fixes a number of bugs in the TITANS AI. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "1.4.0",
-  "build": "114344",
-  "date": "2020/05/29",
+  "version": "1.5.0",
+  "build": "114596",
+  "date": "2020/06/25",
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/server-ai-bugfixes-and-enhancements.73444/",
   "category": [
@@ -22,7 +22,6 @@
     "skirmish"
   ],
   "icon": "https://i.imgur.com/dN9eCaW.png",
-  "dependencies": ["com.pa.quitch.qAIModCompatibilityPatch"],
   "priority": 50,
   "titansOnly": true
 }
