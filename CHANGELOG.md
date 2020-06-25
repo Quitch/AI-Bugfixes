@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## DEV
+## v1.5.0 - 2020-06-25
 
 - Remove dependency on AI Mod Compatibility Framework
 
