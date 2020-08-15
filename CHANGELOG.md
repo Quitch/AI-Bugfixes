@@ -1,10 +1,12 @@
 # CHANGELOG
 
-## v2.0.0 - 2020-06-25
+## [Unreleased]
+
+## [2.0.0] - 2020-06-25
 
 - Remove dependency on AI Mod Compatibility Framework
 
-## v1.4.0 - 2020-05-29
+## [1.4.0] - 2020-05-29
 
 - Builds the Stryker Attack Vehicle
 - Builds the Piranha Gunboat
@@ -12,33 +14,33 @@
 - Ensures Locust Nano Swarms are always built by the Unit Cannon
 - Further adjusts how specialist unit ratios are measured to avoid units sitting in the base without a platoon
 
-## v1.3.0 - 2020-04-25
+## [1.3.0] - 2020-04-25
 
 - Enable building of Basic Metal Extractors by Orbital Fabricators
 - Enable building of Basic and Advanced Torpedo Launcher
 - Removed unnecessary file shadowing
 
-## v1.2.1 - 2020-01-26
+## [1.2.1] - 2020-01-26
 
 - Ensure land combat fabber build checks match the ratio check in the platoon template
 
-## v1.2 - 2020-01-19
+## [1.2] - 2020-01-19
 
 - Reversal of island approach, now tries to avoid putting land factories on islands
 
-## v1.1 - 2020-01-18
+## [1.1] - 2020-01-18
 
 - Prevents orbital scouts from getting stuck on gas giants
 
-## v1.0.2 - 2020-01-18
+## [1.0.2] - 2020-01-18
 
 - Improve compatibility with Legion Expansion
 
-## v1.0.1 - 2020-01-18
+## [1.0.1] - 2020-01-18
 
 - Fix a spacing error
 
-## v1.0 - 2020-01-18
+## [1.0] - 2020-01-18
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit
