@@ -1,14 +1,14 @@
-# AI Bugfixes and Enhancements
+# [AI Bugfixes and Enhancements]
 
 The base game AI implementation for Planetary Annihilation: TITANS features a number of flaws, primarily due to the AI failing to keep up with an evolving unit roster over the course of the game's lifespan. This mod aims to fix those issues.
 
 Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them.
 
-## Installation
+## [Installation]
 
 You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
 
-## What It Does
+## [What It Does]
 
 - Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit.
@@ -30,10 +30,10 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Ensures Spark Tesla Bots are always built by the Unit Cannon.
 - Ensures Locust Nano Swarms are always built by the Unit Cannon.
 
-## What It Doesn't Do
+## [What It Doesn't Do]
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
 
-## Translations
+## [Translations]
 
 Please help [translate AI Bugfixes and Enhancements](https://poeditor.com/join/project/wHanBb08ma) to your local language.
