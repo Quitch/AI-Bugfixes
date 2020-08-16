@@ -2,7 +2,7 @@
 
 The base game AI implementation for Planetary Annihilation: TITANS features a number of flaws, primarily due to the AI failing to keep up with an evolving unit roster over the course of the game's lifespan. This mod aims to fix those issues.
 
-Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them.
+Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them, without straying away from the AI's current implementation.
 
 ## Installation
 
