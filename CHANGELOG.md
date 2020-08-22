@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unrealted
+## Unreleased
 
 - Added support for Deep Space Radar
 
