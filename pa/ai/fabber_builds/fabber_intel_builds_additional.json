@@ -6,7 +6,7 @@
       "instance_count": 1,
       "shared_instance_count": "DeepSpaceRadar",
       "priority": 92,
-      "builders": ["AnyAdvancedFabber"],
+      "builders": ["AnyUberAdvancedFabber", "UberSupportCommander"],
       "build_conditions": [
         [
           {
@@ -44,7 +44,7 @@
       "instance_count": 1,
       "shared_instance_count": "DeepSpaceRadar",
       "priority": 266,
-      "builders": ["AnyAdvancedFabber"],
+      "builders": ["AnyUberAdvancedFabber", "UberSupportCommander"],
       "build_conditions": [
         [
           {
