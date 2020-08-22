@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unrealted
+
+- Added support for Deep Space Radar
+
 ## v2.0.0 - 2020-06-25
 
 - Remove dependency on AI Mod Compatibility Framework
