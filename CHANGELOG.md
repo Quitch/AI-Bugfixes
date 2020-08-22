@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Added support for Deep Space Radar
+- Land Titan builds require some space around them
 
 ## v2.0.0 - 2020-06-25
 
