@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Land Titan builds require some space around them
+- Scout with Stryker Attack Vehicles
 
 ## v2.0.0 - 2020-06-25
 
