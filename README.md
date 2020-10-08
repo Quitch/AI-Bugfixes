@@ -33,7 +33,3 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 ## What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
-
-## Translations
-
-Please help [translate AI Bugfixes and Enhancements](https://poeditor.com/join/project/wHanBb08ma) to your local language.
