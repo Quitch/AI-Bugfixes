@@ -4,6 +4,7 @@
 
 - Land Titan builds require some space around them
 - Ensure artillery and tactical land units include each other in their ratio checks
+- Scout with Stryker Attack Vehicles
 
 ## v2.0.0 - 2020-06-25
 
