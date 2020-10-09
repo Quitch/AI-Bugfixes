@@ -277,7 +277,7 @@
       "instance_count": 1,
       "priority": 255,
       "base_sort": "FromPerimeter",
-      "builders": ["AnyUberAdvancedFabber", "UberSupportCommander"],
+      "builders": ["AnyUberAdvancedFabber"],
       "build_conditions": [
         [
           {
@@ -337,7 +337,7 @@
       "instance_count": 1,
       "priority": 379,
       "base_sort": "FromPerimeter",
-      "builders": ["AnyUberAdvancedFabber", "UberSupportCommander"],
+      "builders": ["AnyUberAdvancedFabber"],
       "build_conditions": [
         [
           {

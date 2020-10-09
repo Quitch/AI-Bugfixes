@@ -4,9 +4,9 @@
   "display_name": "AI Bugfixes and Enhancements",
   "description": "Fixes a number of bugs in the TITANS AI. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "2.0.0",
-  "build": "114596",
-  "date": "2020/06/25",
+  "version": "2.1.0",
+  "build": "114980",
+  "date": "2020/10/09",
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/server-ai-bugfixes-and-enhancements.73444/",
   "category": [

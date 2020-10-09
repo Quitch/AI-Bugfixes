@@ -83,7 +83,15 @@
     "Naval_Scout": {
       "units": [
         {
-          "unit_types": "Naval & Scout",
+          "unit_types": "(Naval & WaterHover & Offense & Mobile) - Fabber - Construction - Titan",
+          "max_count": 1
+        }
+      ]
+    },
+    "Wheeled_Scout": {
+      "units": [
+        {
+          "unit_types": "(Vehicle & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct",
           "max_count": 1
         }
       ]
