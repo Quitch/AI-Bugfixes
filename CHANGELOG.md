@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.1.0 - 2020-10-09
 
 - Land Titan builds require some space around them
 - Ensure artillery and tactical land units include each other in their ratio checks
