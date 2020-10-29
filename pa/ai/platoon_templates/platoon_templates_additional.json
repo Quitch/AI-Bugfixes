@@ -51,7 +51,7 @@
         {
           "unit_types": "(Hover & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 9,
+          "max_count": 10,
           "squad": "General"
         },
         {
@@ -97,7 +97,7 @@
         {
           "unit_types": "(Hover & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 19,
+          "max_count": 20,
           "squad": "General"
         },
         {
@@ -143,7 +143,7 @@
         {
           "unit_types": "(Hover & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 39,
+          "max_count": 40,
           "squad": "General"
         },
         {
