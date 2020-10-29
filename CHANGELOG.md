@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Avoid including Bluehawks and Locusts in bot scout squads
+
 ## v2.1.0 - 2020-10-09
 
 - Land Titan builds require some space around them
