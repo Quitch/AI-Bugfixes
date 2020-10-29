@@ -83,7 +83,7 @@
     "Naval_Scout": {
       "units": [
         {
-          "unit_types": "(Naval & WaterHover & Offense & Mobile) - Fabber - Construction - Titan",
+          "unit_types": "(Naval & WaterHover & Offense & Mobile) - Fabber - Construction - AirDefense - OrbitalDefense - Titan",
           "max_count": 1
         }
       ]
