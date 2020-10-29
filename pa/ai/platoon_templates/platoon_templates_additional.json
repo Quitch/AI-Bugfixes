@@ -11,7 +11,7 @@
         {
           "unit_types": "(Hover & Mobile & (Artillery | Tactical)) - Fabber - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 3,
+          "percent": 0.35,
           "squad": "Artillery"
         },
         {
@@ -57,7 +57,7 @@
         {
           "unit_types": "(Hover & Mobile & (Artillery | Tactical)) - Fabber - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 9,
+          "percent": 0.35,
           "squad": "Artillery"
         },
         {
@@ -103,7 +103,7 @@
         {
           "unit_types": "(Hover & Mobile & (Artillery | Tactical)) - Fabber - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 19,
+          "percent": 0.35,
           "squad": "Artillery"
         },
         {
@@ -149,7 +149,7 @@
         {
           "unit_types": "(Hover & Mobile & (Artillery | Tactical)) - Fabber - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": 39,
+          "percent": 0.35,
           "squad": "Artillery"
         },
         {
@@ -195,7 +195,7 @@
         {
           "unit_types": "(Hover & Mobile & (Artillery | Tactical)) - Fabber - Deconstruction - Titan",
           "min_count": 0,
-          "max_count": -1,
+          "percent": 0.35,
           "squad": "Artillery"
         },
         {
