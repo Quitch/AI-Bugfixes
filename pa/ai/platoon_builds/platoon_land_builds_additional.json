@@ -16,7 +16,7 @@
           },
           {
             "test_type": "UnitPoolCount",
-            "unit_type_string0": "(Vehicle & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct",
+            "unit_type_string0": "(Vehicle & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct",
             "compare0": ">=",
             "value0": 1
           }
