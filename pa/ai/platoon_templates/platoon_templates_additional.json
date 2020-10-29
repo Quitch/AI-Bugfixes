@@ -91,7 +91,7 @@
     "Wheeled_Scout": {
       "units": [
         {
-          "unit_types": "(Vehicle & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct",
+          "unit_types": "(Vehicle & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct",
           "max_count": 1
         }
       ]

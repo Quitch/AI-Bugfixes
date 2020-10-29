@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Avoid trying to form invalid squads
+- Improved compatibility with Second Wave
 
 ## v2.1.0 - 2020-10-09
 
