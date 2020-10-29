@@ -13,6 +13,36 @@
           "min_count": 0,
           "max_count": 3,
           "squad": "Artillery"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
+          "min_count": 0,
+          "percent": 0.5,
+          "squad": "Close"
+        },
+        {
+          "unit_types": "(Hover & Mobile & AirDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.25,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & OrbitalDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Construction) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Hover & Scout - Titan",
+          "min_count": 0,
+          "percent": 0.05,
+          "squad": "Defense"
         }
       ]
     },
@@ -29,6 +59,36 @@
           "min_count": 0,
           "max_count": 9,
           "squad": "Artillery"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
+          "min_count": 0,
+          "percent": 0.5,
+          "squad": "Close"
+        },
+        {
+          "unit_types": "(Hover & Mobile & AirDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.25,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & OrbitalDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Construction) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Hover & Scout - Titan",
+          "min_count": 0,
+          "percent": 0.05,
+          "squad": "Defense"
         }
       ]
     },
@@ -45,6 +105,36 @@
           "min_count": 0,
           "max_count": 19,
           "squad": "Artillery"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
+          "min_count": 0,
+          "percent": 0.5,
+          "squad": "Close"
+        },
+        {
+          "unit_types": "(Hover & Mobile & AirDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.25,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & OrbitalDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Construction) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Hover & Scout - Titan",
+          "min_count": 0,
+          "percent": 0.05,
+          "squad": "Defense"
         }
       ]
     },
@@ -61,6 +151,36 @@
           "min_count": 0,
           "max_count": 39,
           "squad": "Artillery"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
+          "min_count": 0,
+          "percent": 0.5,
+          "squad": "Close"
+        },
+        {
+          "unit_types": "(Hover & Mobile & AirDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.25,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & OrbitalDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Construction) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Hover & Scout - Titan",
+          "min_count": 0,
+          "percent": 0.05,
+          "squad": "Defense"
         }
       ]
     },
@@ -77,6 +197,36 @@
           "min_count": 0,
           "max_count": -1,
           "squad": "Artillery"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Heavy) - Titan",
+          "min_count": 0,
+          "percent": 0.5,
+          "squad": "Close"
+        },
+        {
+          "unit_types": "(Hover & Mobile & AirDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.25,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & OrbitalDefense) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "(Hover & Mobile & Construction) - Titan",
+          "min_count": 0,
+          "percent": 0.1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Hover & Scout - Titan",
+          "min_count": 0,
+          "percent": 0.05,
+          "squad": "Defense"
         }
       ]
     },
