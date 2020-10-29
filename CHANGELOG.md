@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Avoid including Bluehawks and Locusts in bot scout squads
+- Avoid trying to form invalid squads
 
 ## v2.1.0 - 2020-10-09
 
