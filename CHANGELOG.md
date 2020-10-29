@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Avoid AI trying to form an invalid bot scout squad
+
 ## v2.1.0 - 2020-10-09
 
 - Land Titan builds require some space around them
