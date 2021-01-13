@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Commander builds Orbital Launcher
+- Commander builds Umbrella
 
 ## v2.2.0 - 2020-10-29
 
