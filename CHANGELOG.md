@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Commander builds Orbital Launcher
+
 ## v2.2.0 - 2020-10-29
 
 - Avoid trying to form invalid squads
