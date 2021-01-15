@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.3.0 - 2020-01-15
+
+- Commander builds Orbital Launcher
+- Commander builds Umbrella
+
 ## v2.2.0 - 2020-10-29
 
 - Avoid trying to form invalid squads
