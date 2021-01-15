@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.3.0 - 2020-01-15
 
 - Commander builds Orbital Launcher
 - Commander builds Umbrella
