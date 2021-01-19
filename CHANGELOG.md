@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.3.1 - 2021-01-19
 
 - Fixed incompatibility with Legion
 
