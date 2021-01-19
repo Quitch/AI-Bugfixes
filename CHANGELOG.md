@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Fixed incompatibility with Legion
+
 ## v2.3.0 - 2021-01-15
 
 - Commander builds Orbital Launcher
