@@ -5,8 +5,8 @@
   "description": "Fixes a number of bugs in the TITANS AI and adds a new difficulty Normal+. Does not affect Galactic War.",
   "author": "Quitch",
   "version": "dev",
-  "build": "115459",
-  "date": "2021/01/19",
+  "build": "115626",
+  "date": "2021/04/27",
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/server-ai-bugfixes-and-enhancements.73444/",
   "category": [

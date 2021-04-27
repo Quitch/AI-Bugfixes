@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.4.0 - 2021-04-27
 
 - Added Normal+ difficulty between Normal and Hard
 
