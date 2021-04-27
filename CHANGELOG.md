@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Added Normal+ difficulty between Normal and Hard
+
 ## v2.3.1 - 2021-01-19
 
 - Fixed incompatibility with Legion

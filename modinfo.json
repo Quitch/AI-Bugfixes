@@ -22,6 +22,11 @@
     "skirmish"
   ],
   "icon": "https://i.imgur.com/dN9eCaW.png",
+  "scenes": {
+    "new_game": [
+      "coui://ui/mods/com.pa.quitch.AIBugfixEnhancement/difficulty.js"
+    ]
+  },
   "priority": 50,
   "titansOnly": true,
   "github": "https://github.com/Quitch/AI-Bugfixes"
