@@ -25,8 +25,6 @@ if (!aiBugfixLoaded) {
           temp[key] = value;
         }
 
-        console.debug(temp);
-
         return temp;
       };
 
