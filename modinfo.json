@@ -1,7 +1,7 @@
 {
   "context": "server",
-  "identifier": "com.pa.quitch.AIBugfixEnhancement-dev",
-  "display_name": "AI Bugfixes and Enhancements DEV",
+  "identifier": "com.pa.quitch.AIBugfixEnhancement",
+  "display_name": "AI Bugfixes and Enhancements",
   "description": "Fixes a number of bugs in the TITANS AI and adds a new difficulty Normal+. Does not affect Galactic War.",
   "author": "Quitch",
   "version": "2.4.0",
