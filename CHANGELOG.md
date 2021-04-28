@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.4.1 - 2021-04-28
+
+- Correctly assign Normal+ difficulty in a new lobby if it was the last difficulty used
+
 ## v2.4.0 - 2021-04-27
 
 - Added Normal+ difficulty between Normal and Hard
