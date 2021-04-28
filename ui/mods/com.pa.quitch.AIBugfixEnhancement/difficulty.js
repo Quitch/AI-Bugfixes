@@ -47,7 +47,7 @@ if (!aiBugfixLoaded) {
           Object.prototype.hasOwnProperty.call(model.aiPersonalities(), prop)
         ) {
           if (i === 3) {
-            temp["NormalPlus"] = newDifficulty;
+            temp.NormalPlus = newDifficulty;
           }
 
           temp[prop] = model.aiPersonalities()[prop];
