@@ -51,7 +51,6 @@ if (!aiBugfixLoaded) {
           }
 
           temp[prop] = model.aiPersonalities()[prop];
-          temp[prop]["name"] = model.aiPersonalities()[prop];
 
           i++;
         }
