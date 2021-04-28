@@ -48,6 +48,7 @@ if (!aiBugfixLoaded) {
         ) {
           if (i === 3) {
             temp.NormalPlus = newDifficulty;
+            temp.NormalPlus["name"] = "NormalPlus";
           }
 
           temp[prop] = model.aiPersonalities()[prop];
@@ -55,10 +56,6 @@ if (!aiBugfixLoaded) {
           i++;
         }
       }
-
-      _.forEach(temp, function (element, key) {
-        temp[key]["name"] = key;
-      });
 
       model.aiPersonalities(temp);
     } catch (e) {
