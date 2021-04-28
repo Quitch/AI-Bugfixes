@@ -8,6 +8,7 @@ if (!aiBugfixLoaded) {
       var temp = {};
       var i = 0;
       var newDifficulty = {
+        name: "NormalPlus",
         display_name: loc("!LOC:Normal") + "+",
         percent_vehicle: 0.45,
         percent_bot: 0.25,
@@ -48,7 +49,6 @@ if (!aiBugfixLoaded) {
         ) {
           if (i === 3) {
             temp.NormalPlus = newDifficulty;
-            temp.NormalPlus["name"] = "NormalPlus";
           }
 
           temp[prop] = model.aiPersonalities()[prop];
