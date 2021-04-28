@@ -51,10 +51,15 @@ if (!aiBugfixLoaded) {
           }
 
           temp[prop] = model.aiPersonalities()[prop];
+          temp[prop]["name"] = model.aiPersonalities()[prop];
 
           i++;
         }
       }
+
+      _.forEach(temp, function (element, key) {
+        temp[key]["name"] = key;
+      });
 
       model.aiPersonalities(temp);
     } catch (e) {
