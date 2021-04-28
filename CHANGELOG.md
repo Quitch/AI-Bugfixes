@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unused
+## v2.4.1 - 2021-04-28
 
 - Correctly assign Normal+ difficulty in a new lobby if it was the last difficulty used
 
