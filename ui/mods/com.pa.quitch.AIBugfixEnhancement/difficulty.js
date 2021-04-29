@@ -8,7 +8,7 @@ if (!aiBugfixLoaded) {
       var temp = {};
 
       _.forEach(model.aiPersonalities(), function (value, key) {
-        if (key == "Hard") {
+        if (key === "Hard") {
           temp.NormalPlus = {
             name: "NormalPlus",
             display_name: loc("!LOC:Normal") + "+",
