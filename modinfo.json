@@ -27,7 +27,7 @@
       "coui://ui/mods/com.pa.quitch.AIBugfixEnhancement/difficulty.js"
     ]
   },
-  "priority": 50,
+  "priority": 101,
   "titansOnly": true,
   "github": "https://github.com/Quitch/AI-Bugfixes"
 }
