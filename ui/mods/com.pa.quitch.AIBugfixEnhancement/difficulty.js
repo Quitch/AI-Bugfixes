@@ -57,7 +57,7 @@ if (!aiBugfixLoaded) {
   }
   aiBugfixPersonalities();
 
-  model.aiPersonalities.subscribe(function() {
+  function appendQBEMetadata() {
     try {
       for (k in model.aiPersonalities()) {
         p = model.aiPersonalities()[k]
@@ -69,5 +69,8 @@ if (!aiBugfixLoaded) {
       console.error(e);
       console.error(JSON.stringify(e));
     }
-  });
+  };
+  appendQBEMetadata();
+
+  model.aiPersonalities.subscribe(appendQBEMetadata);
 }
