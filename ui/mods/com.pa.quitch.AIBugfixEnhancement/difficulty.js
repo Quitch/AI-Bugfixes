@@ -56,4 +56,18 @@ if (!aiBugfixLoaded) {
     }
   }
   aiBugfixPersonalities();
+
+  model.aiPersonalities.subscribe(function() {
+    try {
+      for (k in model.aiPersonalities()) {
+        p = model.aiPersonalities()[k]
+        if (!("ai_path" in p) || (p["ai_path"] === "/pa/ai")) {
+          p["qbe"] = true
+        }
+      }
+    } catch (e) {
+      console.error(e);
+      console.error(JSON.stringify(e));
+    }
+  });
 }
