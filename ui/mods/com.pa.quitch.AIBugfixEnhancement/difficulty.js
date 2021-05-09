@@ -63,6 +63,8 @@ if (!aiBugfixLoaded) {
         p = model.aiPersonalities()[k]
         if (!("ai_path" in p) || (p["ai_path"] === "/pa/ai")) {
           p["qbe"] = true
+        } else {
+          p["qbe"] = false
         }
       }
     } catch (e) {
