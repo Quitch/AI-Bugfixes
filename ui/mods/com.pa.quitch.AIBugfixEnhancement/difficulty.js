@@ -3,6 +3,17 @@ var aiBugfixLoaded;
 if (!aiBugfixLoaded) {
   aiBugfixLoaded = true;
 
+  model.aiPersonalities.subscribe(function () {
+    try {
+      _.forEach(model.aiPersonalities(), function (value) {
+        value["qbe"] = !("ai_path" in value) || (value["ai_path"] === "/pa/ai");
+      })
+    } catch (e) {
+      console.error(e);
+      console.error(JSON.stringify(e));
+    }
+  });
+
   function aiBugfixPersonalities() {
     try {
       var temp = {};
@@ -56,23 +67,4 @@ if (!aiBugfixLoaded) {
     }
   }
   aiBugfixPersonalities();
-
-  function appendQBEMetadata() {
-    try {
-      for (k in model.aiPersonalities()) {
-        p = model.aiPersonalities()[k]
-        if (!("ai_path" in p) || (p["ai_path"] === "/pa/ai")) {
-          p["qbe"] = true
-        } else {
-          p["qbe"] = false
-        }
-      }
-    } catch (e) {
-      console.error(e);
-      console.error(JSON.stringify(e));
-    }
-  };
-  appendQBEMetadata();
-
-  model.aiPersonalities.subscribe(appendQBEMetadata);
 }
