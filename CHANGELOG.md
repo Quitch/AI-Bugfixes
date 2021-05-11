@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.5.0 - 2021-05-11
 
 - Add metadata to allow Reckoner to differentiate vanilla and bugfix AIs
 
