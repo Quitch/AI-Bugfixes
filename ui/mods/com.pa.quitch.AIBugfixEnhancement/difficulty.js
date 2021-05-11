@@ -6,6 +6,11 @@ if (!aiBugfixLoaded) {
   model.aiPersonalities.subscribe(function () {
     try {
       _.forEach(model.aiPersonalities(), function (value) {
+        // AI personalities will gain a "qbe" property that indicates
+        // if they are affected by this mod or not; this metadata persists
+        // into the replayfeed, game feed, and other sources of data.
+        // This allows systems like Reckoner to differentiate unmodded AIs
+        // from their modded counterparts.
         value["qbe"] = !("ai_path" in value) || (value["ai_path"] === "/pa/ai");
       })
     } catch (e) {
