@@ -3,6 +3,18 @@ var aiBugfixLoaded;
 if (!aiBugfixLoaded) {
   aiBugfixLoaded = true;
 
+  model.aiPersonalities.subscribe(function () {
+    try {
+      _.forEach(model.aiPersonalities(), function (value) {
+        // Metadata that persists into feeds to differentiate modded AI from vanilla
+        value["qbe"] = !("ai_path" in value) || (value["ai_path"] === "/pa/ai");
+      })
+    } catch (e) {
+      console.error(e);
+      console.error(JSON.stringify(e));
+    }
+  });
+
   function aiBugfixPersonalities() {
     try {
       var temp = {};
