@@ -54,6 +54,50 @@
             "compare0": ">",
             "value0": 0
           }
+        ],
+        [
+          {
+            "test_type": "BaseThreatened",
+            "boolean": false
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "(Tank | Air) & Factory",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "((Bot | Vehicle) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct",
+            "compare0": "<",
+            "value0": 200
+          },
+          {
+            "test_type": "HaveFullPlanetIntel",
+            "boolean": false
+          }
+        ],
+        [
+          {
+            "test_type": "BaseThreatened",
+            "boolean": false
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "(Tank | Air) & Factory",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "((Bot | Vehicle) & Mobile) - Fabber - AirDefense - Construction - Artillery - Heavy - SelfDestruct",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "HaveFullPlanetIntel",
+            "boolean": false
+          }
         ]
       ]
     }

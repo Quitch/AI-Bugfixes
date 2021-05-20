@@ -1,9 +1,36 @@
 # CHANGELOG
 
-## Unreleased
+## v2.5.0 - 2021-05-11
+
+- Add metadata to allow Reckoner to differentiate vanilla and bugfix AIs
+
+## v2.4.1 - 2021-04-28
+
+- Correctly assign Normal+ difficulty in a new lobby if it was the last difficulty used
+
+## v2.4.0 - 2021-04-27
+
+- Added Normal+ difficulty between Normal and Hard
+
+## v2.3.1 - 2021-01-19
+
+- Fixed incompatibility with Legion
+
+## v2.3.0 - 2021-01-15
+
+- Commander builds Orbital Launcher
+- Commander builds Umbrella
+
+## v2.2.0 - 2020-10-29
+
+- Avoid trying to form invalid squads
+- Improved compatibility with Second Wave
+
+## v2.1.0 - 2020-10-09
 
 - Land Titan builds require some space around them
-- Builds the Deep Space Radar
+- Ensure artillery and tactical land units include each other in their ratio checks
+- Scout with Stryker Attack Vehicles
 
 ## v2.0.0 - 2020-06-25
 

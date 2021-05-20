@@ -29,12 +29,8 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds the Piranha Gunboat.
 - Ensures Spark Tesla Bots are always built by the Unit Cannon.
 - Ensures Locust Nano Swarms are always built by the Unit Cannon.
-- Builds the Deep Space Radar.
+- Adds a new difficulty Normal+ between Normal and Hard.
 
 ## What It Doesn't Do
 
 - Fix these issues in Galactic War, as this mode cannot load server mods.
-
-## Translations
-
-Please help [translate AI Bugfixes and Enhancements](https://poeditor.com/join/project/wHanBb08ma) to your local language.

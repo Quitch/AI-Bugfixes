@@ -2,11 +2,11 @@
   "context": "server",
   "identifier": "com.pa.quitch.AIBugfixEnhancement-dev",
   "display_name": "AI Bugfixes and Enhancements DEV",
-  "description": "Fixes a number of bugs in the TITANS AI. Does not affect Galactic War.",
+  "description": "Fixes a number of bugs in the TITANS AI and adds a new difficulty Normal+. Does not affect Galactic War.",
   "author": "Quitch",
   "version": "dev",
-  "build": "114596",
-  "date": "2020/06/25",
+  "build": "115626",
+  "date": "2021/05/11",
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/server-ai-bugfixes-and-enhancements.73444/",
   "category": [
@@ -22,6 +22,12 @@
     "skirmish"
   ],
   "icon": "https://i.imgur.com/dN9eCaW.png",
+  "scenes": {
+    "new_game": [
+      "coui://ui/mods/com.pa.quitch.AIBugfixEnhancement/difficulty.js"
+    ]
+  },
   "priority": 50,
-  "titansOnly": true
+  "titansOnly": true,
+  "github": "https://github.com/Quitch/AI-Bugfixes"
 }
