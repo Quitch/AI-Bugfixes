@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Don't build land and air Titans unless the enemy presence is one they can attack
+
 ## v2.5.0 - 2021-05-11
 
 - Add metadata to allow Reckoner to differentiate vanilla and bugfix AIs
