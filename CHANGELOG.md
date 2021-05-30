@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.6.0 - 2021-05-30
+
+- Don't build land and air Titans unless the enemy presence is one they can attack
+- No longer checks the energy requirement for the Helios as it won't use the teleporter
+
 ## v2.5.0 - 2021-05-11
 
 - Add metadata to allow Reckoner to differentiate vanilla and bugfix AIs
