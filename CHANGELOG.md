@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Builds the Icarus Solar Drone
+
 ## v2.6.0 - 2021-05-30
 
 - Don't build land and air Titans unless the enemy presence is one they can attack
