@@ -1,9 +1,54 @@
 {
   "platoon_templates": {
+    "Amphibious_Raid_Small": {
+      "units": [
+        {
+          "unit_types": "(Amphibious & Mobile) - Fabber - Construction - Titan",
+          "min_count": 1,
+          "max_count": 3
+        }
+      ]
+    },
+    "Amphibious_Raid_Medium": {
+      "units": [
+        {
+          "unit_types": "(Amphibious & Mobile) - Fabber - Construction - Titan",
+          "min_count": 4,
+          "max_count": 9
+        }
+      ]
+    },
+    "Amphibious_Raid_Large": {
+      "units": [
+        {
+          "unit_types": "(Amphibious & Mobile) - Fabber - Construction - Titan",
+          "min_count": 10,
+          "max_count": 19
+        }
+      ]
+    },
+    "Amphibious_Raid_XLarge": {
+      "units": [
+        {
+          "unit_types": "(Amphibious & Mobile) - Fabber - Construction - Titan",
+          "min_count": 20,
+          "max_count": 39
+        }
+      ]
+    },
+    "Amphibious_Raid_Max": {
+      "units": [
+        {
+          "unit_types": "(Amphibious & Mobile) - Fabber - Construction - Titan",
+          "min_count": 40,
+          "max_count": -1
+        }
+      ]
+    },
     "Land_Raid_Small": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 1,
           "max_count": 3,
           "squad": "Fast"
@@ -13,7 +58,7 @@
     "Land_Raid_Medium": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 4,
           "max_count": 9,
           "squad": "Fast"
@@ -23,7 +68,7 @@
     "Land_Raid_Large": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 10,
           "max_count": 19,
           "squad": "Fast"
@@ -33,7 +78,7 @@
     "Land_Raid_XLarge": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 20,
           "max_count": 39,
           "squad": "Fast"
@@ -43,57 +88,7 @@
     "Land_Raid_Max": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
-          "min_count": 40,
-          "max_count": -1,
-          "squad": "Fast"
-        }
-      ]
-    },
-    "Swarm_Raid_Small": {
-      "units": [
-        {
-          "unit_types": "Bot & Deconstruction",
-          "min_count": 1,
-          "max_count": 3,
-          "squad": "Fast"
-        }
-      ]
-    },
-    "Swarm_Raid_Medium": {
-      "units": [
-        {
-          "unit_types": "Bot & Deconstruction",
-          "min_count": 4,
-          "max_count": 9,
-          "squad": "Fast"
-        }
-      ]
-    },
-    "Swarm_Raid_Large": {
-      "units": [
-        {
-          "unit_types": "Bot & Deconstruction",
-          "min_count": 10,
-          "max_count": 19,
-          "squad": "Fast"
-        }
-      ]
-    },
-    "Swarm_Raid_XLarge": {
-      "units": [
-        {
-          "unit_types": "Bot & Deconstruction",
-          "min_count": 20,
-          "max_count": 39,
-          "squad": "Fast"
-        }
-      ]
-    },
-    "Swarm_Raid_Max": {
-      "units": [
-        {
-          "unit_types": "Bot & Deconstruction",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 40,
           "max_count": -1,
           "squad": "Fast"
@@ -153,19 +148,19 @@
     "Land_Attack_Small": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 3,
           "squad": "Fast"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
           "min_count": 0,
           "max_count": 3,
           "squad": "General"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & (Artillery | Tactical)) - Titan",
+          "unit_types": "(((Tank | Bot) & Mobile) & (Artillery | Tactical)) - Titan",
           "min_count": 0,
           "percent": 0.35,
           "squad": "Artillery"
@@ -205,31 +200,31 @@
     "Land_Attack_Medium": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct",
           "min_count": 0,
           "max_count": 10,
           "squad": "Fast"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count": 0,
           "max_count": 10,
           "squad": "General"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & (Artillery | Tactical)) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & (Artillery | Tactical)",
           "min_count": 0,
           "percent": 0.35,
           "squad": "Artillery"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Heavy) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & AirDefense) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
@@ -241,13 +236,13 @@
           "squad": "Defense"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Construction) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Land & Scout - Titan",
+          "unit_types": "Land & Scout",
           "min_count": 0,
           "percent": 0.05,
           "squad": "Defense"
@@ -257,31 +252,31 @@
     "Land_Attack_Large": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct",
           "min_count": 0,
           "max_count": 20,
           "squad": "Fast"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count": 0,
           "max_count": 20,
           "squad": "General"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & (Artillery | Tactical)) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & (Artillery | Tactical)",
           "min_count": 0,
           "percent": 0.35,
           "squad": "Artillery"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Heavy) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & AirDefense) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
@@ -293,13 +288,13 @@
           "squad": "Defense"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Construction) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Land & Scout - Titan",
+          "unit_types": "Land & Scout",
           "min_count": 0,
           "percent": 0.05,
           "squad": "Defense"
@@ -309,31 +304,31 @@
     "Land_Attack_XLarge": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct",
           "min_count": 0,
           "max_count": 40,
           "squad": "Fast"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count": 0,
           "max_count": 40,
           "squad": "General"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & (Artillery | Tactical)) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & (Artillery | Tactical)",
           "min_count": 0,
           "percent": 0.35,
           "squad": "Artillery"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Heavy) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & AirDefense) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
@@ -345,13 +340,13 @@
           "squad": "Defense"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Construction) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Land & Scout - Titan",
+          "unit_types": "Land & Scout",
           "min_count": 0,
           "percent": 0.05,
           "squad": "Defense"
@@ -361,31 +356,31 @@
     "Land_Attack_Max": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct",
           "min_count": 0,
           "max_count": -1,
           "squad": "Fast"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - Scout - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - Scout - SelfDestruct",
           "min_count": 0,
           "max_count": -1,
           "squad": "General"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & (Artillery | Tactical)) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & (Artillery | Tactical)",
           "min_count": 0,
           "percent": 0.35,
           "squad": "Artillery"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Heavy) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile & Heavy)",
           "min_count": 0,
           "percent": 0.5,
           "squad": "Close"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & AirDefense) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & AirDefense",
           "min_count": 0,
           "percent": 0.25,
           "squad": "Defense"
@@ -397,26 +392,16 @@
           "squad": "Defense"
         },
         {
-          "unit_types": "((Tank | Bot) & Mobile & Construction) - Titan",
+          "unit_types": "((Tank | Bot) & Mobile) & Construction",
           "min_count": 0,
           "percent": 0.1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Land & Scout - Titan",
+          "unit_types": "Land & Scout",
           "min_count": 0,
           "percent": 0.05,
           "squad": "Defense"
-        }
-      ]
-    },
-    "Land_Attack_Titan": {
-      "units": [
-        {
-          "unit_types": "(Tank | Bot) & Mobile & Titan",
-          "min_count": 1,
-          "max_count": -1,
-          "squad": "General"
         }
       ]
     },
@@ -439,238 +424,242 @@
     "Bot_Scout": {
       "units": [
         {
-          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Tactical - Heavy - SelfDestruct - Deconstruction - Titan",
+          "unit_types": "(Bot & Mobile) - Fabber - AirDefense - OrbitalDefense - Construction - Artillery - Heavy - SelfDestruct - Deconstruction - Titan",
           "max_count": 1
         }
       ]
     },
-    "BomberGunship_Attack_Small": {
+    "Bomber_Attack_Small": {
       "units": [
         {
-          "unit_types": "Air & ((Bomber & Basic) | Gunship) - Titan",
+          "unit_types": "Air & Bomber & Basic",
           "min_count": 1,
           "max_count": 3
         },
         {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
           "unit_types": "Air & Fighter",
           "min_count": 0,
-          "percent": 0.25,
+          "max_count": 5,
           "squad": "Escort"
         }
       ]
     },
-    "BomberGunship_Attack_Medium": {
+    "Bomber_Attack_Medium_Without_Fighters": {
       "units": [
         {
-          "unit_types": "Air & ((Bomber & Basic) | Gunship) - Titan",
-          "min_count": 4,
+          "unit_types": "Air & Bomber & Basic",
+          "min_count": 5,
+          "max_count": 9
+        }
+      ]
+    },
+    "Bomber_Attack_Medium_With_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Bomber & Basic",
+          "min_count": 5,
+          "max_count": 19
+        },
+        {
+          "unit_types": "Air & Fighter",
+          "min_count": 5,
+          "max_count": 19,
+          "squad": "Escort"
+        }
+      ]
+    },
+    "Bomber_Attack_Large_Without_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Bomber & Basic",
+          "min_count": 20,
+          "max_count": -1
+        }
+      ]
+    },
+    "Bomber_Attack_Large_With_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Bomber & Basic",
+          "min_count": 20,
+          "max_count": -1
+        },
+        {
+          "unit_types": "Air & Fighter",
+          "min_count": 10,
+          "percent": 0.5,
+          "squad": "Escort"
+        }
+      ]
+    },
+    "Gunship_Attack_Small_Without_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Gunship",
+          "min_count": 5,
+          "max_count": 9
+        }
+      ]
+    },
+    "Gunship_Attack_Small_With_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Gunship",
+          "min_count": 5,
           "max_count": 9
         },
         {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
           "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
+          "min_count": 5,
+          "max_count": 9,
           "squad": "Escort"
         }
       ]
     },
-    "BomberGunship_Attack_Large": {
+    "Gunship_Attack_Medium_Without_Fighters": {
       "units": [
         {
-          "unit_types": "Air & ((Bomber & Basic) | Gunship) - Titan",
+          "unit_types": "Air & Gunship",
+          "min_count": 10,
+          "max_count": 19
+        }
+      ]
+    },
+    "Gunship_Attack_Medium_With_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Gunship",
           "min_count": 10,
           "max_count": 19
         },
         {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
           "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
-        }
-      ]
-    },
-    "BomberGunship_Attack_XLarge": {
-      "units": [
-        {
-          "unit_types": "Air & ((Bomber & Basic) | Gunship) - Titan",
-          "min_count": 20,
-          "max_count": 39
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
-        }
-      ]
-    },
-    "BomberGunship_Attack_Max": {
-      "units": [
-        {
-          "unit_types": "Air & ((Bomber & Basic) | Gunship) - Titan",
-          "min_count": 40,
-          "max_count": -1
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
-        }
-      ]
-    },
-    "HeavyBomber_Attack_Small": {
-      "units": [
-        {
-          "unit_types": "Air & Bomber & Advanced - Titan",
-          "min_count": 1,
-          "max_count": 3
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
-        }
-      ]
-    },
-    "HeavyBomber_Attack_Medium": {
-      "units": [
-        {
-          "unit_types": "Air & Bomber & Advanced - Titan",
-          "min_count": 4,
-          "max_count": 9
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
-        }
-      ]
-    },
-    "HeavyBomber_Attack_Large": {
-      "units": [
-        {
-          "unit_types": "Air & Bomber & Advanced - Titan",
           "min_count": 10,
-          "max_count": 19
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
+          "max_count": 19,
           "squad": "Escort"
         }
       ]
     },
-    "HeavyBomber_Attack_XLarge": {
+    "Tactical_Bomber_Attack_Without_Fighters": {
       "units": [
         {
-          "unit_types": "Air & Bomber & Advanced - Titan",
+          "unit_types": "Air & Tactical",
+          "min_count": 5,
+          "max_count": -1,
+          "squad": "Artillery"
+        },
+        {
+          "unit_types": "Air & MissileDefense",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Defense"
+        }
+      ]
+    },
+    "Tactical_Bomber_Attack_With_Fighters": {
+      "units": [
+        {
+          "unit_types": "Air & Tactical",
+          "min_count": 5,
+          "max_count": -1,
+          "squad": "Artillery"
+        },
+        {
+          "unit_types": "Air & MissileDefense",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Defense"
+        },
+        {
+          "unit_types": "Air & Fighter",
           "min_count": 20,
-          "max_count": 39
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
-        },
-        {
-          "unit_types": "Air & Fighter",
-          "min_count": 0,
-          "percent": 0.25,
+          "max_count": -1,
           "squad": "Escort"
         }
       ]
     },
-    "HeavyBomber_Attack_Max": {
+    "Heavy_Bomber_Attack_Without_Fighters": {
       "units": [
         {
-          "unit_types": "Air & Bomber & Advanced - Titan",
-          "min_count": 40,
-          "max_count": -1
+          "unit_types": "Air & Bomber & Heavy",
+          "min_count": 4,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "Air & Bomber - Heavy",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "Air & Tactical",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Artillery"
         },
         {
           "unit_types": "Air & MissileDefense",
           "min_count": 0,
-          "percent": 0.15,
+          "max_count": -1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Air & Fighter",
+          "unit_types": "Air & Gunship - Heavy",
           "min_count": 0,
-          "percent": 0.25,
-          "squad": "Escort"
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "Air & Gunship & Heavy",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "General"
         }
       ]
     },
-    "Air_Attack_Titan": {
+    "Heavy_Bomber_Attack_With_Fighters": {
       "units": [
         {
-          "unit_types": "Air & Titan",
-          "min_count": 1,
-          "max_count": -1
+          "unit_types": "Air & Bomber & Heavy",
+          "min_count": 4,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "Air & Bomber - Heavy",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "Air & Tactical",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Artillery"
         },
         {
           "unit_types": "Air & MissileDefense",
           "min_count": 0,
-          "max_count": 2,
+          "max_count": -1,
           "squad": "Defense"
         },
         {
-          "unit_types": "Air & Fighter",
+          "unit_types": "Air & Gunship - Heavy",
           "min_count": 0,
-          "max_count": 15,
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "Air & Gunship & Heavy",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "Air & Fighter",
+          "min_count": 20,
+          "max_count": -1,
           "squad": "Escort"
         }
       ]
@@ -681,12 +670,6 @@
           "unit_types": "Air & Fighter",
           "min_count": 1,
           "max_count": 3
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
         }
       ]
     },
@@ -696,12 +679,6 @@
           "unit_types": "Air & Fighter",
           "min_count": 4,
           "max_count": 9
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
         }
       ]
     },
@@ -711,12 +688,6 @@
           "unit_types": "Air & Fighter",
           "min_count": 10,
           "max_count": 19
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
         }
       ]
     },
@@ -726,12 +697,6 @@
           "unit_types": "Air & Fighter",
           "min_count": 20,
           "max_count": 39
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
         }
       ]
     },
@@ -741,26 +706,107 @@
           "unit_types": "Air & Fighter",
           "min_count": 40,
           "max_count": -1
-        },
-        {
-          "unit_types": "Air & MissileDefense",
-          "min_count": 0,
-          "percent": 0.15,
-          "squad": "Defense"
         }
       ]
     },
-    "Naval_Attack": {
+    "Naval_Attack_Small": {
       "units": [
         {
-          "unit_types": "(Naval & Mobile) - Fabber - Construction",
+          "unit_types": "Naval & Mobile & WaterHover",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Basic) - Fabber - Construction - WaterHover - AirDefense - OrbitalDefense",
           "min_count": 1,
-          "max_count": -1
+          "max_count": 3,
+          "squad": "General"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Advanced) - Fabber",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Artillery"
+        },
+        {
+          "unit_types": "Naval & Mobile & Basic & AirDefense",
+          "min_count": 0,
+          "max_count": 3,
+          "squad": "Escort"
         },
         {
           "unit_types": "Naval & Mobile & Construction",
           "min_count": 0,
-          "percent": 0.2,
+          "max_count": 1,
+          "squad": "Defense"
+        }
+      ]
+    },
+    "Naval_Attack_Medium": {
+      "units": [
+        {
+          "unit_types": "Naval & Mobile & WaterHover",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Basic) - Fabber - Construction - WaterHover - AirDefense - OrbitalDefense",
+          "min_count": 4,
+          "max_count": 9,
+          "squad": "General"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Advanced) - Fabber",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Artillery"
+        },
+        {
+          "unit_types": "Naval & Mobile & Basic & AirDefense",
+          "min_count": 1,
+          "max_count": 3,
+          "squad": "Escort"
+        },
+        {
+          "unit_types": "Naval & Mobile & Construction",
+          "min_count": 0,
+          "max_count": 1,
+          "squad": "Defense"
+        }
+      ]
+    },
+    "Naval_Attack_Large": {
+      "units": [
+        {
+          "unit_types": "Naval & Mobile & WaterHover",
+          "min_count": 0,
+          "max_count": -1,
+          "squad": "Fast"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Basic) - Fabber - Construction - WaterHover - AirDefense - OrbitalDefense",
+          "min_count": 10,
+          "max_count": -1,
+          "squad": "General"
+        },
+        {
+          "unit_types": "(Naval & Mobile & Advanced) - Fabber",
+          "min_count": 1,
+          "max_count": -1,
+          "squad": "Artillery"
+        },
+        {
+          "unit_types": "Naval & Mobile & Basic & AirDefense",
+          "min_count": 3,
+          "max_count": -1,
+          "squad": "Escort"
+        },
+        {
+          "unit_types": "Naval & Mobile & Construction",
+          "min_count": 1,
+          "max_count": -1,
           "squad": "Defense"
         }
       ]
@@ -771,21 +817,6 @@
           "unit_types": "Orbital & Fighter",
           "min_count": 1,
           "max_count": -1
-        }
-      ]
-    },
-    "Orbital_Titan_Attack": {
-      "units": [
-        {
-          "unit_types": "Orbital & Titan",
-          "min_count": 1,
-          "max_count": -1
-        },
-        {
-          "unit_types": "Orbital & Fighter",
-          "min_count": 0,
-          "max_count": 15,
-          "squad": "Escort"
         }
       ]
     },
@@ -847,5 +878,233 @@
         }
       ]
     }
+  },
+  "Hover_Raid_Small": {
+    "units": [
+      {
+        "unit_types": "(Hover & Mobile) - Fabber - Construction - Titan",
+        "min_count": 1,
+        "max_count": 3
+      }
+    ]
+  },
+  "Hover_Raid_Medium": {
+    "units": [
+      {
+        "unit_types": "(Hover & Mobile) - Fabber - Construction - Titan",
+        "min_count": 4,
+        "max_count": 9
+      }
+    ]
+  },
+  "Hover_Raid_Large": {
+    "units": [
+      {
+        "unit_types": "(Hover & Mobile) - Fabber - Construction - Titan",
+        "min_count": 10,
+        "max_count": 19
+      }
+    ]
+  },
+  "Hover_Raid_XLarge": {
+    "units": [
+      {
+        "unit_types": "(Hover & Mobile) - Fabber - Construction - Titan",
+        "min_count": 20,
+        "max_count": 39
+      }
+    ]
+  },
+  "Hover_Raid_Max": {
+    "units": [
+      {
+        "unit_types": "(Hover & Mobile) - Fabber - Construction - Titan",
+        "min_count": 40,
+        "max_count": -1
+      }
+    ]
+  },
+  "Swarm_Raid_Small": {
+    "units": [
+      {
+        "unit_types": "Bot & Deconstruction",
+        "min_count": 1,
+        "max_count": 3,
+        "squad": "Fast"
+      }
+    ]
+  },
+  "Swarm_Raid_Medium": {
+    "units": [
+      {
+        "unit_types": "Bot & Deconstruction",
+        "min_count": 4,
+        "max_count": 9,
+        "squad": "Fast"
+      }
+    ]
+  },
+  "Swarm_Raid_Large": {
+    "units": [
+      {
+        "unit_types": "Bot & Deconstruction",
+        "min_count": 10,
+        "max_count": 19,
+        "squad": "Fast"
+      }
+    ]
+  },
+  "Swarm_Raid_XLarge": {
+    "units": [
+      {
+        "unit_types": "Bot & Deconstruction",
+        "min_count": 20,
+        "max_count": 39,
+        "squad": "Fast"
+      }
+    ]
+  },
+  "Swarm_Raid_Max": {
+    "units": [
+      {
+        "unit_types": "Bot & Deconstruction",
+        "min_count": 40,
+        "max_count": -1,
+        "squad": "Fast"
+      }
+    ]
+  },
+  "Land_Attack_Bot_Titan": {
+    "units": [
+      {
+        "unit_types": "Bot & Mobile & Titan",
+        "min_count": 1,
+        "max_count": -1,
+        "squad": "Close"
+      },
+      {
+        "unit_types": "Mobile & (Hover | Amphibious)",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Escort"
+      }
+    ]
+  },
+  "Land_Attack_Hover_Titan": {
+    "units": [
+      {
+        "unit_types": "Tank & Mobile & Titan",
+        "min_count": 1,
+        "max_count": -1,
+        "squad": "Artillery"
+      },
+      {
+        "unit_types": "Mobile & (Hover | Amphibious)",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Escort"
+      }
+    ]
+  },
+  "Air_Attack_Titan_Without_Fighters": {
+    "units": [
+      {
+        "unit_types": "Air & Titan",
+        "min_count": 1,
+        "max_count": -1,
+        "squad": "Artillery"
+      },
+      {
+        "unit_types": "Air & Tactical",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Artillery"
+      },
+      {
+        "unit_types": "Air & MissileDefense",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Defense"
+      },
+      {
+        "unit_types": "Air & Gunship - Heavy",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Fast"
+      },
+      {
+        "unit_types": "Air & Gunship & Heavy",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "General"
+      },
+      {
+        "unit_types": "Air & Bomber",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "General"
+      }
+    ]
+  },
+  "Air_Attack_Titan_With_Fighters": {
+    "units": [
+      {
+        "unit_types": "Air & Titan",
+        "min_count": 1,
+        "max_count": -1,
+        "squad": "Artillery"
+      },
+      {
+        "unit_types": "Air & Tactical",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Artillery"
+      },
+      {
+        "unit_types": "Air & MissileDefense",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Defense"
+      },
+      {
+        "unit_types": "Air & Gunship - Heavy",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "Fast"
+      },
+      {
+        "unit_types": "Air & Gunship & Heavy",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "General"
+      },
+      {
+        "unit_types": "Air & Bomber",
+        "min_count": 0,
+        "max_count": -1,
+        "squad": "General"
+      },
+      {
+        "unit_types": "Air & Fighter",
+        "min_count": 20,
+        "max_count": -1,
+        "squad": "Escort"
+      }
+    ]
+  },
+  "Orbital_Titan_Attack": {
+    "units": [
+      {
+        "unit_types": "Orbital & Titan",
+        "min_count": 1,
+        "max_count": -1
+      },
+      {
+        "unit_types": "Orbital & Fighter",
+        "min_count": 0,
+        "max_count": 15,
+        "squad": "Escort"
+      }
+    ]
   }
 }
