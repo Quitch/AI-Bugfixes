@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Remove Reckoner metadata as this is now in the replay feed
+
 ## v2.7.0 - 2021-06-13
 
 - Builds the Icarus Solar Drone
