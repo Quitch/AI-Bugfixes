@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Updated for 115769-pte
+- Remove Reckoner metadata as this is now in the replay feed
 
 ## v2.7.0 - 2021-06-13
 
