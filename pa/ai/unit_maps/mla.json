@@ -26,6 +26,9 @@
     },
     "UberSupportCommander": {
       "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
+    },
+    "BasicAABot": {
+      "spec_id": "/pa/units/land/bot_aa/bot_aa.json"
     }
   }
 }
