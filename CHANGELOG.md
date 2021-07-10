@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.8.0 - 2021-07-10
 
 - Remove Reckoner metadata as this is now in the replay feed
 - Builds the Stinger Anti-Air Bot
