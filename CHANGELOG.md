@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Require a naval threat before building torpedo launchers to avoid some occurrences of CanDeployNavalFromBase being unreliable
+
 ## v2.8.0 - 2021-07-10
 
 - Remove Reckoner metadata as this is now in the replay feed
