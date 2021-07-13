@@ -4,6 +4,15 @@
 
 - Updated for 115769-pte
 
+## v2.8.1 - 2021-07-13
+
+- Require a naval threat before building torpedo launchers to avoid some occurrences of CanDeployNavalFromBase being unreliable
+
+## v2.8.0 - 2021-07-10
+
+- Remove Reckoner metadata as this is now in the replay feed
+- Builds the Stinger Anti-Air Bot
+
 ## v2.7.0 - 2021-06-13
 
 - Builds the Icarus Solar Drone
