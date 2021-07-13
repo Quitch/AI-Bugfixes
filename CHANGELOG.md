@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.8.1 - 2021-07-13
 
 - Require a naval threat before building torpedo launchers to avoid some occurrences of CanDeployNavalFromBase being unreliable
 
