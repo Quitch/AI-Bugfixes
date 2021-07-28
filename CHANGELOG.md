@@ -2,7 +2,7 @@
 
 ## v2.8.2 - 2021-07-28
 
-- Update Normal+ for changes to Normal
+- Update Normal+ for changes to Normal - with thanks to quildtide
 
 ## v2.8.1 - 2021-07-13
 
