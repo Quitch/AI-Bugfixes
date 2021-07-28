@@ -4,6 +4,10 @@
 
 - Updated for 115769-pte
 
+## v2.8.2 - 2021-07-28
+
+- Update Normal+ for changes to Normal - with thanks to quildtide
+
 ## v2.8.1 - 2021-07-13
 
 - Require a naval threat before building torpedo launchers to avoid some occurrences of CanDeployNavalFromBase being unreliable
