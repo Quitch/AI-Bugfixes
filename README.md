@@ -10,14 +10,28 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 
 ## What It Does
 
+- Prevents hover units getting stuck on islands with land armies or in ponds with naval fleets.
 - Ensures Bluehawk Mobile Tactical Missiles are handled as a long-range unit.
 - Recognises that the Advanced Naval Factory can be effective even without a naval route.
+- Builds the Phoenix Advanced Fighter.
+- Builds the Horsefly Advanced Strafer.
+- Prevents the inclusion of factories in mobile unit ratio checks.
+- Removes unnecessary economy checks from Titan builds.
+- Builds the Atlas Titan.
+- Builds the Ares Titan.
+- Uncaps the Drifter Hover Tank build ratio when there is no land route.
+- Prevents the creation of naval fleets consisting of only Barnacle Naval Barges.
 - Prevents orbital scouts from getting stuck on gas giants.
 - Tries to avoid placing land factories in areas without land routes.
 - Builds Metal Extractors using Orbital Fabricators.
+- Builds Torpedo Launchers.
+- Builds the Stryker Attack Vehicle.
+- Builds the Piranha Gunboat.
 - Ensures Spark Tesla Bots are always built by the Unit Cannon.
 - Ensures Locust Nano Swarms are always built by the Unit Cannon.
 - Adds a new difficulty Normal+ between Normal and Hard.
+- Builds the Icarus Solar Drone.
+- Builds the Stinger Anti-Air Bot.
 
 ## What It Doesn't Do
 
