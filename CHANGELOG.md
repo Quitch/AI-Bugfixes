@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.8.3 - 2021-08-06
+
+- Ensures Stinger Anti-Air Bots are always built by the Unit Cannon
+
 ## v2.8.2 - 2021-07-28
 
 - Update Normal+ for changes to Normal - with thanks to quildtide
