@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.8.3 - 2021-08-06
 
 - Ensures Stinger Anti-Air Bots are always built by the Unit Cannon
 
