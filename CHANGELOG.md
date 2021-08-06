@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Updated for 115769-pte
+- Ensures Stinger Anti-Air Bots are always built by the Unit Cannon
 
 ## v2.8.2 - 2021-07-28
 
