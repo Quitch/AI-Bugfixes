@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.9.0 - 2022-01-14
+
+- Disabled land titan builds due to it causing army pathing issues
+
 ## v2.8.3 - 2021-08-06
 
 - Ensures Stinger Anti-Air Bots are always built by the Unit Cannon
