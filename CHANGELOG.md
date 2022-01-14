@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.9.0 - 2022-01-14
 
 - Disabled land titan builds due to it causing army pathing issues
 
