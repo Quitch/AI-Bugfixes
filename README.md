@@ -32,6 +32,7 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Adds a new difficulty Normal+ between Normal and Hard.
 - Builds the Icarus Solar Drone.
 - Builds the Stinger Anti-Air Bot.
+- Adds a Random option for difficulty selection.
 
 ## What It Doesn't Do
 
