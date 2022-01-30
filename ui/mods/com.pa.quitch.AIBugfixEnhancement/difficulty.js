@@ -49,7 +49,42 @@ if (!aiBugfixLoaded) {
         temp[key] = model.aiPersonalities()[key];
       });
 
+      temp.Random = {
+        name: "Random",
+        display_name: loc("!LOC:Random"),
+      };
+
       model.aiPersonalities(temp);
+
+      // assign random personalities when start game clicked
+      model.startGame = (function () {
+        var cachedFunction = model.startGame;
+
+        return function () {
+          var selectPersonality = function () {
+            var availablePersonalities = _.filter(
+              model.aiPersonalityNames(),
+              function (personality) {
+                return (
+                  !_.includes(personality, "Random") &&
+                  !_.includes(personality, "Idle")
+                );
+              }
+            );
+            return _.sample(availablePersonalities);
+          };
+
+          _.forEach(model.armies(), function (army) {
+            _.forEach(army.slots(), function (slot) {
+              if (slot.ai() === true && slot.aiPersonality() === "Random") {
+                slot.aiPersonality(selectPersonality());
+              }
+            });
+          });
+
+          return cachedFunction.apply(this, arguments);
+        };
+      })();
     } catch (e) {
       console.error(e);
       console.error(JSON.stringify(e));

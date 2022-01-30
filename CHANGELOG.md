@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.10.0 - 2022-01-30
+
+- Add option to have AI difficulty chosen at random
+
 ## v2.9.0 - 2022-01-14
 
 - Disabled land titan builds due to it causing army pathing issues
