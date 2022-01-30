@@ -76,10 +76,7 @@ if (!aiBugfixLoaded) {
 
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
-              if (
-                slot.ai() === true &&
-                _.includes("Random", slot.aiPersonality())
-              ) {
+              if (slot.ai() === true && slot.aiPersonality() === "Random") {
                 slot.aiPersonality(selectPersonality());
               }
             });
