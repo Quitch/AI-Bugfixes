@@ -61,9 +61,9 @@ if (!aiBugfixLoaded) {
         var cachedFunction = model.startGame;
 
         return function () {
-          var selectPersonality = function () {
+          var selectPersonality = function (personalities) {
             var availablePersonalities = _.filter(
-              model.aiPersonalityNames(),
+              personalities,
               function (personality) {
                 return (
                   !_.includes(personality, "Random") &&
@@ -77,7 +77,9 @@ if (!aiBugfixLoaded) {
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
               if (slot.ai() === true && slot.aiPersonality() === "Random") {
-                slot.aiPersonality(selectPersonality());
+                slot.aiPersonality(
+                  selectPersonality(model.aiPersonalityNames())
+                );
               }
             });
           });
