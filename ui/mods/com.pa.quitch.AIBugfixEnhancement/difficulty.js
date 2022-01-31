@@ -61,14 +61,11 @@ if (!aiBugfixLoaded) {
         var cachedFunction = model.startGame;
 
         return function () {
-          var selectPersonality = function (personalities) {
+          var selectPersonality = function (personalityNames) {
             var availablePersonalities = _.filter(
-              personalities,
-              function (personality) {
-                return (
-                  !_.includes(personality, "Random") &&
-                  !_.includes(personality, "Idle")
-                );
+              personalityNames,
+              function (name) {
+                return !_.includes(name, "Idle") && !_.includes(name, "Random");
               }
             );
             return _.sample(availablePersonalities);
