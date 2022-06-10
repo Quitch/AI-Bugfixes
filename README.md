@@ -17,8 +17,6 @@ You should download and install this mod via the Planetary Annihilation: TITANS 
 - Builds the Horsefly Advanced Strafer.
 - Prevents the inclusion of factories in mobile unit ratio checks.
 - Removes unnecessary economy checks from Titan builds.
-- Builds the Atlas Titan.
-- Builds the Ares Titan.
 - Uncaps the Drifter Hover Tank build ratio when there is no land route.
 - Prevents the creation of naval fleets consisting of only Barnacle Naval Barges.
 - Prevents orbital scouts from getting stuck on gas giants.
