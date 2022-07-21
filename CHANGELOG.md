@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Support amphibious platoons
+
 ## v2.10.0 - 2022-01-30
 
 - Add option to have AI difficulty chosen at random
