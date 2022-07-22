@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Support amphibious platoons
+- Random personality selection properly handles Penchant AI faction specific personalities
 
 ## v2.10.0 - 2022-01-30
 

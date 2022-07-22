@@ -61,22 +61,47 @@ if (!aiBugfixLoaded) {
         var cachedFunction = model.startGame;
 
         return function () {
-          var selectPersonality = function (personalityNames) {
-            var availablePersonalities = _.filter(
-              personalityNames,
-              function (name) {
-                return !_.includes(name, "Idle") && !_.includes(name, "Random");
-              }
-            );
-            return _.sample(availablePersonalities);
+          var checkSlotForFactionMod = function (slot) {
+            var factionCommanders = ["l_", "bug_"];
+            return _.some(factionCommanders, function (commander) {
+              return _.includes(slot.commander(), commander);
+            });
           };
+
+          var validPersonalities = function (personalityNames) {
+            return _.filter(personalityNames, function (name) {
+              return !_.startsWith(name, "Idle") && !_.includes(name, "Random");
+            });
+          };
+
+          var selectPersonality = function (personalityNames) {
+            return _.sample(personalityNames);
+          };
+
+          var mlaPersonalities = _.filter(
+            _.keys(model.aiPersonalityNames()),
+            function (personality) {
+              return _.endsWith(personality, "Mla");
+            }
+          );
+          var noMlaPersonalities = _.assign(
+            _.omit(model.aiPersonalityNames(), mlaPersonalities)
+          );
 
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
               if (slot.ai() === true && slot.aiPersonality() === "Random") {
-                slot.aiPersonality(
-                  selectPersonality(model.aiPersonalityNames())
+                var isFactionSlot = checkSlotForFactionMod(slot);
+                var availablePersonalities = isFactionSlot
+                  ? noMlaPersonalities
+                  : model.aiPersonalityNames();
+                availablePersonalities = validPersonalities(
+                  availablePersonalities
                 );
+                var chosenPersonality = selectPersonality(
+                  availablePersonalities
+                );
+                slot.aiPersonality(chosenPersonality);
               }
             });
           });
