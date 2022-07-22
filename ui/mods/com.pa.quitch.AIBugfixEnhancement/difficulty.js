@@ -56,28 +56,63 @@ if (!aiBugfixLoaded) {
 
       model.aiPersonalities(temp);
 
-      // assign random personalities when start game clicked
+      // assign personalities to Randoms when start game clicked
       model.startGame = (function () {
         var cachedFunction = model.startGame;
 
         return function () {
-          var selectPersonality = function () {
-            var availablePersonalities = _.filter(
-              model.aiPersonalityNames(),
-              function (personality) {
-                return (
-                  !_.includes(personality, "Random") &&
-                  !_.includes(personality, "Idle")
-                );
-              }
-            );
-            return _.sample(availablePersonalities);
+          var slotIsLegion = function (slot) {
+            return _.includes(slot.commander(), "l_");
+          };
+
+          var slotIsBugs = function (slot) {
+            return _.includes(slot.commander(), "bug_");
+          };
+
+          var validPersonalities = function (personalityNames) {
+            return _.filter(personalityNames, function (name) {
+              return !_.startsWith(name, "Idle") && !_.includes(name, "Random");
+            });
+          };
+
+          var selectPersonality = function (personalityNames) {
+            return _.sample(personalityNames);
+          };
+
+          var mlaPersonalities = _.filter(
+            model.aiPersonalityNames(),
+            function (personality) {
+              return _.endsWith(personality, "Mla");
+            }
+          );
+          var noMlaPersonalities = _.assign(
+            _.xor(model.aiPersonalityNames(), mlaPersonalities)
+          );
+          var noMlaOrQuellerPersonalities = _.filter(
+            noMlaPersonalities,
+            function (personality) {
+              return !_.startsWith(personality, "q");
+            }
+          );
+
+          var filterValidPersonalities = function (slot) {
+            if (slotIsLegion(slot)) {
+              return validPersonalities(noMlaPersonalities);
+            } else if (slotIsBugs(slot)) {
+              return validPersonalities(noMlaOrQuellerPersonalities);
+            } else {
+              return validPersonalities(model.aiPersonalityNames());
+            }
           };
 
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
               if (slot.ai() === true && slot.aiPersonality() === "Random") {
-                slot.aiPersonality(selectPersonality());
+                var availablePersonalities = filterValidPersonalities(slot);
+                var chosenPersonality = selectPersonality(
+                  availablePersonalities
+                );
+                slot.aiPersonality(chosenPersonality);
               }
             });
           });

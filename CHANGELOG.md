@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.11.0 - 2022-07-22
+
+- Support amphibious platoons
+- Random personality selection properly handles Penchant AI faction specific personalities
+- Random personality selection excludes Queller AI from Bugs slots
+
 ## v2.10.0 - 2022-01-30
 
 - Add option to have AI difficulty chosen at random
