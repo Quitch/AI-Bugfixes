@@ -79,7 +79,7 @@ if (!aiBugfixLoaded) {
           };
 
           var mlaPersonalities = _.filter(
-            _.keys(model.aiPersonalityNames()),
+            model.aiPersonalityNames(),
             function (personality) {
               return _.endsWith(personality, "Mla");
             }
