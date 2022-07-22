@@ -61,11 +61,14 @@ if (!aiBugfixLoaded) {
         var cachedFunction = model.startGame;
 
         return function () {
-          var checkSlotForFactionMod = function (slot) {
-            var factionCommanders = ["l_", "bug_"];
-            return _.some(factionCommanders, function (commander) {
-              return _.includes(slot.commander(), commander);
-            });
+          var slotIsLegion = function (slot) {
+            var legionCommander = "l_";
+            return _.includes(slot.commander(), legionCommander);
+          };
+
+          var slotIsBugs = function (slot) {
+            var bugCommander = "bug_";
+            return _.includes(slot.commander(), bugCommander);
           };
 
           var validPersonalities = function (personalityNames) {
@@ -85,19 +88,29 @@ if (!aiBugfixLoaded) {
             }
           );
           var noMlaPersonalities = _.assign(
-            _.omit(model.aiPersonalityNames(), mlaPersonalities)
+            _.xor(model.aiPersonalityNames(), mlaPersonalities)
           );
+          var noMlaOrQuellerPersonalities = _.filter(
+            noMlaPersonalities,
+            function (personality) {
+              return !_.startsWith(personality, "q");
+            }
+          );
+
+          var filterValidPersonalities = function (slot) {
+            if (slotIsLegion(slot)) {
+              return validPersonalities(noMlaPersonalities);
+            } else if (slotIsBugs(slot)) {
+              return validPersonalities(noMlaOrQuellerPersonalities);
+            } else {
+              return validPersonalities(model.aiPersonalityNames());
+            }
+          };
 
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
               if (slot.ai() === true && slot.aiPersonality() === "Random") {
-                var isFactionSlot = checkSlotForFactionMod(slot);
-                var availablePersonalities = isFactionSlot
-                  ? noMlaPersonalities
-                  : model.aiPersonalityNames();
-                availablePersonalities = validPersonalities(
-                  availablePersonalities
-                );
+                var availablePersonalities = filterValidPersonalities(slot);
                 var chosenPersonality = selectPersonality(
                   availablePersonalities
                 );
