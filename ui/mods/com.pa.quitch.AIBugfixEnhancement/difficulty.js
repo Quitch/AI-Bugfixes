@@ -62,13 +62,11 @@ if (!aiBugfixLoaded) {
 
         return function () {
           var slotIsLegion = function (slot) {
-            var legionCommander = "l_";
-            return _.includes(slot.commander(), legionCommander);
+            return _.includes(slot.commander(), "l_");
           };
 
           var slotIsBugs = function (slot) {
-            var bugCommander = "bug_";
-            return _.includes(slot.commander(), bugCommander);
+            return _.includes(slot.commander(), "bug_");
           };
 
           var validPersonalities = function (personalityNames) {
