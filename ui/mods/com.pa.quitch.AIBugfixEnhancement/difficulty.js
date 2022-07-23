@@ -97,9 +97,8 @@ if (!aiBugfixLoaded) {
               return validPersonalities(noMlaPersonalities);
             } else if (slotIsBugs(slot)) {
               return validPersonalities(noMlaOrQuellerPersonalities);
-            } else {
-              return validPersonalities(model.aiPersonalityNames());
             }
+            return validPersonalities(model.aiPersonalityNames());
           };
 
           _.forEach(model.armies(), function (army) {
