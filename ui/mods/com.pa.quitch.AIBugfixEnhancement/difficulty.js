@@ -56,7 +56,7 @@ if (!aiBugfixLoaded) {
 
       model.aiPersonalities(temp);
 
-      // assign personalities to Randoms when start game clicked
+      // assign random personalities when Start Game clicked
       model.startGame = (function () {
         var cachedFunction = model.startGame;
 
