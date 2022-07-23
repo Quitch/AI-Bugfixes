@@ -85,8 +85,9 @@ if (!aiBugfixLoaded) {
               return _.endsWith(personality, "Mla");
             }
           );
-          var noMlaPersonalities = _.assign(
-            _.xor(model.aiPersonalityNames(), mlaPersonalities)
+          var noMlaPersonalities = _.xor(
+            model.aiPersonalityNames(),
+            mlaPersonalities
           );
           var noMlaOrQuellerPersonalities = _.filter(
             noMlaPersonalities,
