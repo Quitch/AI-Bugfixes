@@ -21,7 +21,7 @@
     "fix",
     "skirmish"
   ],
-  "icon": "https://i.imgur.com/dN9eCaW.png",
+  "icon": "https://raw.githubusercontent.com/Quitch/AI-Bugfixes/develop/images/icon.png",
   "scenes": {
     "new_game": [
       "coui://ui/mods/com.pa.quitch.AIBugfixEnhancement/difficulty.js"
