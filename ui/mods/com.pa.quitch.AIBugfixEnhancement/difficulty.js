@@ -56,7 +56,7 @@ if (!aiBugfixLoaded) {
 
       model.aiPersonalities(temp);
 
-      // assign personalities to Randoms when start game clicked
+      // assign random personalities when Start Game clicked
       model.startGame = (function () {
         var cachedFunction = model.startGame;
 
@@ -75,18 +75,15 @@ if (!aiBugfixLoaded) {
             });
           };
 
-          var selectPersonality = function (personalityNames) {
-            return _.sample(personalityNames);
-          };
-
           var mlaPersonalities = _.filter(
             model.aiPersonalityNames(),
             function (personality) {
               return _.endsWith(personality, "Mla");
             }
           );
-          var noMlaPersonalities = _.assign(
-            _.xor(model.aiPersonalityNames(), mlaPersonalities)
+          var noMlaPersonalities = _.xor(
+            model.aiPersonalityNames(),
+            mlaPersonalities
           );
           var noMlaOrQuellerPersonalities = _.filter(
             noMlaPersonalities,
@@ -100,18 +97,15 @@ if (!aiBugfixLoaded) {
               return validPersonalities(noMlaPersonalities);
             } else if (slotIsBugs(slot)) {
               return validPersonalities(noMlaOrQuellerPersonalities);
-            } else {
-              return validPersonalities(model.aiPersonalityNames());
             }
+            return validPersonalities(model.aiPersonalityNames());
           };
 
           _.forEach(model.armies(), function (army) {
             _.forEach(army.slots(), function (slot) {
               if (slot.ai() === true && slot.aiPersonality() === "Random") {
                 var availablePersonalities = filterValidPersonalities(slot);
-                var chosenPersonality = selectPersonality(
-                  availablePersonalities
-                );
+                var chosenPersonality = _.sample(availablePersonalities);
                 slot.aiPersonality(chosenPersonality);
               }
             });

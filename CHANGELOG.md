@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.11.1 - 2022-08-08
+
+- Fix icon
+
 ## v2.11.0 - 2022-07-22
 
 - Support amphibious platoons

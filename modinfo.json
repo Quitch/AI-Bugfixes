@@ -4,9 +4,9 @@
   "display_name": "AI Bugfixes and Enhancements",
   "description": "Fixes a number of bugs in the TITANS AI, adds a new difficulty Normal+, and the ability to select a difficulty at random. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "2.11.0",
+  "version": "2.11.1",
   "build": "115872",
-  "date": "2022-07-22",
+  "date": "2022-08-08",
   "signature": " ",
   "forum": "https://steamcommunity.com/app/386070/discussions/0/2872668471921083798/",
   "category": [
@@ -21,7 +21,7 @@
     "fix",
     "skirmish"
   ],
-  "icon": "https://i.imgur.com/dN9eCaW.png",
+  "icon": "https://raw.githubusercontent.com/Quitch/AI-Bugfixes/develop/images/icon.png",
   "scenes": {
     "new_game": [
       "coui://ui/mods/com.pa.quitch.AIBugfixEnhancement/difficulty.js"
