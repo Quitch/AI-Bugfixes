@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.11.1 - 2022-08-08
 
 - Fix icon
 
