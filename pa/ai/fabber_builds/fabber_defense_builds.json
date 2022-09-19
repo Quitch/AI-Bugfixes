@@ -11,6 +11,11 @@
       "build_conditions": [
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": false
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -36,6 +41,81 @@
           }
         ],
         [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": false
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "DistFromNearestEnemyThreat",
+            "compare0": "<=",
+            "value0": 200
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & AirDefense",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & MetalProduction",
+            "compare0": ">=",
+            "value0": 2
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicAirDefense"
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": true
+          },
+          {
+            "test_type": "EnemyAirPresenceOnPlanet",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "DistFromMainBase",
+            "compare0": ">=",
+            "value0": 150
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & AirDefense",
+            "compare0": "<",
+            "value0": 1
+          },
+          {
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & MetalProduction",
+            "compare0": ">=",
+            "value0": 2
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicAirDefense"
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": true
+          },
+          {
+            "test_type": "EnemyAirPresenceOnPlanet",
+            "boolean": true
+          },
           {
             "test_type": "CanAffordBuildDemand"
           },
@@ -199,6 +279,11 @@
       "build_conditions": [
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": false
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -220,6 +305,11 @@
         ],
         [
           {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": false
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -233,6 +323,24 @@
             "unit_type_string0": "Structure & (Tactical | Artillery)",
             "compare0": ">=",
             "value0": 1
+          },
+          {
+            "test_type": "CanFindPlaceToBuild",
+            "string0": "BasicAirDefense"
+          }
+        ],
+        [
+          {
+            "test_type": "HasPersonalityTag",
+            "string0": "GalacticWar",
+            "boolean": true
+          },
+          {
+            "test_type": "EnemyAirPresenceOnPlanet",
+            "boolean": true
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
           },
           {
             "test_type": "CanFindPlaceToBuild",
