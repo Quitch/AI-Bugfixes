@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.12.0 - 2022-09-19
 
 - Updated builds in accordance with changes in PA 116242
 
