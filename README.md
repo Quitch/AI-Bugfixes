@@ -4,6 +4,8 @@ The base game AI implementation for Planetary Annihilation: TITANS features a nu
 
 Please note that there are many ways to resolve the issues handled by this mod; while its purpose is bugfixing, the solutions chosen are in accordance with my interpretation of how best to resolve them, without straying away from the AI's current implementation.
 
+This mod has now been integrated into PA and is no longer required.
+
 ## Installation
 
 You should download and install this mod via the Planetary Annihilation: TITANS in-game [Community Mods](https://steamcommunity.com/sharedfiles/filedetails/?id=1417396826).
