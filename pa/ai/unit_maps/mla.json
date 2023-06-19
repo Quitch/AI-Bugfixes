@@ -1,34 +1,10 @@
 {
   "unit_map": {
-    "AnyAdvancedFabber": {
-      "unit_types": "((Fabber & (Advanced | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyAirFactory": {
-      "unit_types": "(Factory & Air) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyBasicFabber": {
-      "unit_types": "((Fabber & (Basic | Debug)) - Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyBotFactory": {
-      "unit_types": "(Factory & Bot) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyNavalFactory": {
-      "unit_types": "(Factory & Naval) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyOrbitalFactory": {
-      "unit_types": "(Factory & Orbital) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "AnyVehicleFactory": {
-      "unit_types": "(Factory & Tank) - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "Commander": {
-      "unit_types": "Commander - Custom1 - Custom2 - Custom3 - Custom4"
-    },
-    "SupportCommander": {
-      "spec_id": "/pa/units/land/bot_support_commander/bot_support_commander.json"
-    },
     "BasicAABot": {
       "spec_id": "/pa/units/land/bot_aa/bot_aa.json"
+    },
+    "LandMine": {
+      "spec_id": "/pa/units/land/land_mine/land_mine.json"
     }
   }
 }
