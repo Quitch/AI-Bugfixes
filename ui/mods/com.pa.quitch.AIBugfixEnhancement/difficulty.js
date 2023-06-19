@@ -61,12 +61,13 @@ if (!aiBugfixLoaded) {
         var cachedFunction = model.startGame;
 
         return function () {
-          var slotIsLegion = function (slot) {
-            return _.includes(slot.commander(), "l_");
-          };
-
-          var slotIsBugs = function (slot) {
-            return _.includes(slot.commander(), "bug_");
+          var findSlotFaction = function (slot) {
+            if (_.includes(slot.commander(), "l_")) {
+              return "Legion";
+            } else if (_.includes(slot.commander(), "bug_")) {
+              return "Bugs";
+            }
+            return "MLA";
           };
 
           var validPersonalities = function (personalityNames) {
@@ -93,9 +94,10 @@ if (!aiBugfixLoaded) {
           );
 
           var filterValidPersonalities = function (slot) {
-            if (slotIsLegion(slot)) {
+            var slotFaction = findSlotFaction(slot);
+            if (slotFaction === "Legion") {
               return validPersonalities(noMlaPersonalities);
-            } else if (slotIsBugs(slot)) {
+            } else if (slotFaction === "Bugs") {
               return validPersonalities(noMlaOrQuellerPersonalities);
             }
             return validPersonalities(model.aiPersonalityNames());

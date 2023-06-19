@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.13.0 - 2023-06-19
+
+- Updated for PA 116982
+
 ## v2.12.0 - 2022-09-19
 
 - Updated builds in accordance with changes in PA 116242
