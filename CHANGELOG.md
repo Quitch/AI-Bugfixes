@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v2.13.0 - 2023-06-19
 
 - Updated for PA 116982
 
