@@ -20,6 +20,12 @@
             "boolean": false
           },
           {
+            "test_type": "PlanetThreat",
+            "string0": "Economy",
+            "compare0": ">",
+            "value0": 5000
+          },
+          {
             "test_type": "CanAffordBuildDemand"
           },
           {
@@ -59,6 +65,12 @@
       "builders": ["OrbitalFabber"],
       "build_conditions": [
         [
+          {
+            "test_type": "SystemThreat",
+            "string0": "Economy",
+            "compare0": ">",
+            "value0": 5000
+          },
           {
             "test_type": "CanAffordBuildDemand"
           },

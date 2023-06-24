@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Add minimum threat levels required before Titans are built
+
 ## v2.13.0 - 2023-06-19
 
 - Updated for PA 116982
