@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Build land titans
 - Add minimum threat levels required before Titans are built
 
 ## v2.13.0 - 2023-06-19
