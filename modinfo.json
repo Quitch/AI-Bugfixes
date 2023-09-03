@@ -4,7 +4,7 @@
   "display_name": "AI Bugfixes and Enhancements",
   "description": "Fixes a number of bugs in the TITANS AI, adds a new difficulty Normal+, and the ability to select a difficulty at random. Does not affect Galactic War.",
   "author": "Quitch",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "build": "116982",
   "date": "2023-09-02",
   "signature": " ",
